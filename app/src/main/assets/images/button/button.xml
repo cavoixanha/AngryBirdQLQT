@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="BUTTON.png" type="bitmap" width="509" height="220" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:68a60d7367e0a5242b1bfff8d7cd5ddf$ -->
+    <textureregion id="0" src="BUTTON_DEACTIVE.png" x="451" y="139" width="56" height="56" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="56" srcheight="56"/>
+    <textureregion id="1" src="BUTTON_FACEBOOK.png" x="441" y="2" width="57" height="59" rotated="true" trimmed="true" srcx="0" srcy="3" srcwidth="59" srcheight="67"/>
+    <textureregion id="2" src="BUTTON_GOOGLE_PLAY.png" x="236" y="2" width="80" height="90" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="90"/>
+    <textureregion id="3" src="BUTTON_HELP.png" x="380" y="2" width="59" height="67" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="59" srcheight="67"/>
+    <textureregion id="4" src="BUTTON_HINT.png" x="176" y="124" width="80" height="90" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="90"/>
+    <textureregion id="5" src="BUTTON_INFO.png" x="332" y="140" width="60" height="65" rotated="false" trimmed="true" srcx="0" srcy="0" srcwidth="60" srcheight="67"/>
+    <textureregion id="6" src="BUTTON_MENU.png" x="84" y="129" width="80" height="90" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="90"/>
+    <textureregion id="7" src="BUTTON_MUSIC.png" x="318" y="2" width="60" height="67" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="60" srcheight="67"/>
+    <textureregion id="8" src="BUTTON_NEXT_LEVEL.png" x="154" y="2" width="80" height="90" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="90"/>
+    <textureregion id="9" src="BUTTON_PAUSE.png" x="2" y="140" width="78" height="80" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="78" srcheight="80"/>
+    <textureregion id="10" src="BUTTON_PLAY_IN_GAME.png" x="332" y="71" width="59" height="67" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="59" srcheight="67"/>
+    <textureregion id="11" src="BUTTON_PLAY_IN_MENU.png" x="2" y="2" width="136" height="68" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="136" srcheight="68"/>
+    <textureregion id="12" src="BUTTON_REPLAY.png" x="72" y="2" width="80" height="90" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="80" srcheight="90"/>
+    <textureregion id="13" src="BUTTON_ROTATION_MENU_BACKGROUND.png" x="72" y="94" width="87" height="33" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="87" srcheight="33"/>
+    <textureregion id="14" src="BUTTON_SOUND.png" x="393" y="71" width="58" height="66" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="58" srcheight="66"/>
+    <textureregion id="15" src="BUTTON_TWISTER.png" x="394" y="139" width="55" height="59" rotated="false" trimmed="true" srcx="1" srcy="3" srcwidth="59" srcheight="67"/>
+    <textureregion id="16" src="MENU_BACKGROUND_BUTTON.png" x="258" y="94" width="72" height="80" rotated="false" trimmed="true" srcx="4" srcy="5" srcwidth="80" srcheight="90"/>
+    <textureregion id="17" src="MENU_FANPAGE_BUTTON.png" x="161" y="94" width="46" height="28" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="46" srcheight="28"/>
+    <textureregion id="18" src="MENU_SETTING_BUTTON.png" x="453" y="61" width="54" height="53" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="54" srcheight="53"/>
+</texture>

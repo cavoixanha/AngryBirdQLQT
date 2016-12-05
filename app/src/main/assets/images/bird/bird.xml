@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="BIRD.png" type="bitmap" width="1426" height="126" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:392e4049a775a68e870af9b88fde7a2c$ -->
+    <textureregion id="0" src="ARBALEST_BEHIND_HAND.png" x="590" y="86" width="38" height="200" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="38" srcheight="200"/>
+    <textureregion id="1" src="ARBALEST_FRONT_HAND.png" x="1226" y="58" width="42" height="124" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="42" srcheight="124"/>
+    <textureregion id="2" src="BLACK_BIRD.png" x="590" y="2" width="434" height="82" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="434" srcheight="82"/>
+    <textureregion id="3" src="BLUE_BIRD.png" x="792" y="86" width="128" height="30" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="128" srcheight="30"/>
+    <textureregion id="4" src="RED_BIRD.png" x="1026" y="58" width="198" height="46" rotated="false" trimmed="true" srcx="1" srcy="2" srcwidth="200" srcheight="50"/>
+    <textureregion id="5" src="WHITE_BIRD.png" x="2" y="2" width="586" height="96" rotated="false" trimmed="true" srcx="8" srcy="0" srcwidth="616" srcheight="96"/>
+    <textureregion id="6" src="YELLOW_BIRD.png" x="1026" y="2" width="398" height="54" rotated="false" trimmed="true" srcx="5" srcy="0" srcwidth="408" srcheight="54"/>
+</texture>

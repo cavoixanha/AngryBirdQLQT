@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="WOOD.png" type="bitmap" width="2007" height="106" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:0f27eb07429b4263e293b8cfbadfb17a$ -->
+    <textureregion id="0" src="CIRCLE_WOOD_BIG.png" x="1006" y="2" width="300" height="76" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="300" srcheight="76"/>
+    <textureregion id="1" src="CIRCLE_WOOD_SMALL.png" x="1478" y="25" width="160" height="41" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="160" srcheight="41"/>
+    <textureregion id="2" src="SMASH_WOOD.png" x="2" y="88" width="104" height="9" rotated="false" trimmed="true" srcx="0" srcy="0" srcwidth="120" srcheight="9"/>
+    <textureregion id="3" src="SQUARE_WOOD_01.png" x="1640" y="25" width="332" height="40" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="332" srcheight="40"/>
+    <textureregion id="4" src="SQUARE_WOOD_02.png" x="1308" y="25" width="168" height="41" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="168" srcheight="41"/>
+    <textureregion id="5" src="SQUARE_WOOD_03.png" x="2" y="2" width="84" height="20" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="84" srcheight="20"/>
+    <textureregion id="6" src="SQUARE_WOOD_HOLLOW.png" x="354" y="2" width="328" height="82" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="328" srcheight="82"/>
+    <textureregion id="7" src="STRAIGHT_WOOD_01.png" x="684" y="84" width="820" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="820" srcheight="20"/>
+    <textureregion id="8" src="STRAIGHT_WOOD_02.png" x="1308" y="2" width="672" height="21" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="672" srcheight="21"/>
+    <textureregion id="9" src="STRAIGHT_WOOD_03.png" x="1506" y="68" width="332" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="332" srcheight="20"/>
+    <textureregion id="10" src="STRAIGHT_WOOD_04.png" x="1840" y="67" width="164" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="164" srcheight="20"/>
+    <textureregion id="11" src="TRIANGLE_WOOD_FILLED.png" x="684" y="2" width="320" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="320" srcheight="80"/>
+    <textureregion id="12" src="TRIANGLE_WOOD_HOLLOW.png" x="24" y="2" width="328" height="82" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="328" srcheight="82"/>
+</texture>

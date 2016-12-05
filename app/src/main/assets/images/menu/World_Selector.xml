@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="World_Selector.png" type="bitmap" width="1024" height="1024" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:31f2cbce8d6075d1235613a842dbb1a3$ -->
+    <textureregion id="0" src="World01.png" x="428" y="2" width="136" height="376" rotated="false" trimmed="true" srcx="0" srcy="6" srcwidth="152" srcheight="386"/>
+    <textureregion id="1" src="World02.png" x="380" y="758" width="138" height="376" rotated="true" trimmed="true" srcx="0" srcy="4" srcwidth="152" srcheight="386"/>
+    <textureregion id="2" src="World03.png" x="2" y="384" width="138" height="378" rotated="false" trimmed="true" srcx="0" srcy="3" srcwidth="152" srcheight="386"/>
+    <textureregion id="3" src="World04.png" x="288" y="2" width="138" height="376" rotated="false" trimmed="true" srcx="0" srcy="5" srcwidth="152" srcheight="386"/>
+    <textureregion id="4" src="World05.png" x="282" y="380" width="138" height="376" rotated="false" trimmed="true" srcx="0" srcy="5" srcwidth="152" srcheight="386"/>
+    <textureregion id="5" src="World06.png" x="148" y="2" width="138" height="376" rotated="false" trimmed="true" srcx="3" srcy="4" srcwidth="152" srcheight="386"/>
+    <textureregion id="6" src="World07.png" x="142" y="384" width="138" height="376" rotated="false" trimmed="true" srcx="0" srcy="5" srcwidth="152" srcheight="386"/>
+    <textureregion id="7" src="World08.png" x="560" y="380" width="134" height="376" rotated="false" trimmed="true" srcx="0" srcy="3" srcwidth="152" srcheight="386"/>
+    <textureregion id="8" src="World09.png" x="2" y="764" width="140" height="376" rotated="true" trimmed="true" srcx="1" srcy="5" srcwidth="152" srcheight="386"/>
+    <textureregion id="9" src="World10.png" x="422" y="380" width="136" height="376" rotated="false" trimmed="true" srcx="2" srcy="5" srcwidth="152" srcheight="386"/>
+    <textureregion id="10" src="World11.png" x="2" y="2" width="144" height="380" rotated="false" trimmed="true" srcx="2" srcy="2" srcwidth="152" srcheight="386"/>
+</texture>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="CLOUD.png" type="bitmap" width="692" height="316" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:ac93130c6be5fc92ba5b3f7d753c989c$ -->
+    <textureregion id="0" src="BIRD_CLOUD.png" x="2" y="270" width="172" height="44" rotated="false" trimmed="true" srcx="1" srcy="2" srcwidth="300" srcheight="48"/>
+    <textureregion id="1" src="DESTROY_CLOUD_BLACK.png" x="2" y="2" width="688" height="140" rotated="false" trimmed="true" srcx="32" srcy="2" srcwidth="720" srcheight="144"/>
+    <textureregion id="2" src="DESTROY_CLOUD_WHITE.png" x="2" y="144" width="654" height="124" rotated="false" trimmed="true" srcx="23" srcy="5" srcwidth="680" srcheight="136"/>
+</texture>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="GAME_MENU.png" type="bitmap" width="994" height="253" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:fd1d91df0d341ddb356f558cfdd76b9d$ -->
+    <textureregion id="0" src="BACK_SELECTOR_BUTTON.png" x="510" y="112" width="87" height="89" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="87" srcheight="89"/>
+    <textureregion id="1" src="CENTER_STAR.png" x="2" y="112" width="256" height="132" rotated="false" trimmed="true" srcx="15" srcy="0" srcwidth="272" srcheight="132"/>
+    <textureregion id="2" src="LEFT_STAR.png" x="260" y="112" width="248" height="132" rotated="false" trimmed="true" srcx="24" srcy="0" srcwidth="272" srcheight="132"/>
+    <textureregion id="3" src="LEVEL_SELECTOR.png" x="2" y="2" width="597" height="108" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="597" srcheight="108"/>
+    <textureregion id="4" src="MENU_RESULT_PIG.png" x="851" y="45" width="144" height="141" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="144" srcheight="141"/>
+    <textureregion id="5" src="RIGHT_STAR.png" x="601" y="45" width="248" height="130" rotated="false" trimmed="true" srcx="24" srcy="0" srcwidth="272" srcheight="132"/>
+    <textureregion id="6" src="START_SCORE.png" x="601" y="177" width="75" height="74" rotated="false" trimmed="true" srcx="4" srcy="0" srcwidth="85" srcheight="76"/>
+    <textureregion id="7" src="TURN_SELECTOR_BUTTON.png" x="678" y="177" width="128" height="66" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="128" srcheight="66"/>
+    <textureregion id="8" src="WORLD_START.png" x="601" y="2" width="330" height="41" rotated="false" trimmed="true" srcx="0" srcy="0" srcwidth="336" srcheight="41"/>
+</texture>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="PIG.png" type="bitmap" width="1156" height="424" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:f8cfb6c7763746000e5d888be8e109ff$ -->
+    <textureregion id="0" src="HELMET_PIG.png" x="2" y="258" width="860" height="84" rotated="false" trimmed="true" srcx="0" srcy="0" srcwidth="864" srcheight="88"/>
+    <textureregion id="1" src="KING_PIG.png" x="2" y="2" width="1152" height="152" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="1152" srcheight="152"/>
+    <textureregion id="2" src="NORMAL_PIG.png" x="2" y="344" width="718" height="78" rotated="false" trimmed="true" srcx="1" srcy="0" srcwidth="720" srcheight="78"/>
+    <textureregion id="3" src="OLD_PIG.png" x="2" y="156" width="1006" height="100" rotated="false" trimmed="true" srcx="0" srcy="0" srcwidth="1008" srcheight="100"/>
+    <textureregion id="4" src="SMALL_PIG.png" x="722" y="344" width="432" height="48" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="432" srcheight="48"/>
+</texture>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+    <arbalest x="200" y="545" ></arbalest>
+    <bird x="300" y="696" type="red" ></bird>
+    <bird x="450" y="696" type="yellow" ></bird>
+    <bird x="500" y="696" type="blue" ></bird>
+    <barrier x="1155" y="670" type="wood" class="straight-01" rotation="90" ></barrier>
+    <barrier x="1345" y="670" type="wood" class="straight-01" rotation="90" ></barrier>
+    <barrier x="1250" y="520" type="wood" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1310" y="710" type="ice" class="straight-03" rotation="0" ></barrier>
+    <barrier x="1280" y="670" type="ice" class="straight-03" rotation="90" ></barrier>
+    <barrier x="1340" y="670" type="ice" class="straight-03" rotation="90" ></barrier>
+    <barrier x="1310" y="580" type="ice" class="straight-03" rotation="0" ></barrier>
+    <pig x="1310" y="450" type="normal" rotation="0" ></pig>
+    <next-level worldId="1" stageId="1" levelId="3" ></next-level>
+</level>

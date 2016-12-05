@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="SPLASH.png" type="bitmap" width="870" height="512" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:47b63e394949152e29d5f2c2de76ab79$ -->
+    <textureregion id="0" src="LOADING_SPLASH.png" x="2" y="486" width="95" height="24" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="95" srcheight="24"/>
+    <textureregion id="1" src="SPLASH.png" x="2" y="2" width="866" height="482" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="866" srcheight="482"/>
+</texture>

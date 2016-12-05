@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="STONE.png" type="bitmap" width="1008" height="195" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:fe3ed1dd32eda0eae005de11adf5f902$ -->
+    <textureregion id="0" src="CIRCLE_STONE_BIG.png" x="676" y="24" width="300" height="73" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="300" srcheight="73"/>
+    <textureregion id="1" src="CIRCLE_STONE_SMALL.png" x="506" y="130" width="152" height="37" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="152" srcheight="37"/>
+    <textureregion id="2" src="SMASH_STONE.png" x="978" y="2" width="80" height="28" rotated="true" trimmed="true" srcx="0" srcy="0" srcwidth="96" srcheight="28"/>
+    <textureregion id="3" src="SQUARE_STONE_01.png" x="2" y="130" width="332" height="41" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="332" srcheight="41"/>
+    <textureregion id="4" src="SQUARE_STONE_02.png" x="336" y="130" width="168" height="41" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="168" srcheight="41"/>
+    <textureregion id="5" src="SQUARE_STONE_03.png" x="824" y="2" width="84" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="84" srcheight="20"/>
+    <textureregion id="6" src="SQUARE_STONE_HOLLOW.png" x="332" y="46" width="328" height="82" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="328" srcheight="82"/>
+    <textureregion id="7" src="STRAIGHT_STONE_01.png" x="2" y="2" width="820" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="820" srcheight="20"/>
+    <textureregion id="8" src="STRAIGHT_STONE_02.png" x="2" y="24" width="672" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="672" srcheight="20"/>
+    <textureregion id="9" src="STRAIGHT_STONE_03.png" x="2" y="173" width="332" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="332" srcheight="20"/>
+    <textureregion id="10" src="STRAIGHT_STONE_04.png" x="336" y="173" width="164" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="164" srcheight="20"/>
+    <textureregion id="11" src="TRIANGLE_STONE_FILLED.png" x="662" y="99" width="320" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="320" srcheight="80"/>
+    <textureregion id="12" src="TRIANGLE_STONE_HOLLOW.png" x="2" y="46" width="328" height="82" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="328" srcheight="82"/>
+</texture>

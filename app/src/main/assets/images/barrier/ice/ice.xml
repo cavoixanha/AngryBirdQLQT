@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="ICE.png" type="bitmap" width="822" height="228" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:e672a687c748db0c4d57155831f447b2$ -->
+    <textureregion id="0" src="CIRCLE_ICE_BIG.png" x="2" y="152" width="292" height="74" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="292" srcheight="74"/>
+    <textureregion id="1" src="CIRCLE_ICE_SMALL.png" x="676" y="24" width="184" height="46" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="184" srcheight="46"/>
+    <textureregion id="2" src="SMASH_ICE.png" x="767" y="24" width="146" height="29" rotated="true" trimmed="true" srcx="0" srcy="0" srcwidth="160" srcheight="29"/>
+    <textureregion id="3" src="SQUARE_ICE_01.png" x="724" y="24" width="167" height="41" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="167" srcheight="41"/>
+    <textureregion id="4" src="SQUARE_ICE_02.png" x="724" y="193" width="86" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="86" srcheight="20"/>
+    <textureregion id="5" src="SQUARE_ICE_HOLLOW.png" x="2" y="68" width="328" height="82" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="328" srcheight="82"/>
+    <textureregion id="6" src="STRAIGHT_ICE_01.png" x="2" y="2" width="818" height="20" rotated="false" trimmed="true" srcx="0" srcy="0" srcwidth="820" srcheight="20"/>
+    <textureregion id="7" src="STRAIGHT_ICE_02.png" x="2" y="24" width="672" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="672" srcheight="20"/>
+    <textureregion id="8" src="STRAIGHT_ICE_03.png" x="2" y="46" width="332" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="332" srcheight="20"/>
+    <textureregion id="9" src="STRAIGHT_ICE_04.png" x="798" y="24" width="164" height="20" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="164" srcheight="20"/>
+    <textureregion id="10" src="TRIANGLE_ICE_FILLED.png" x="332" y="130" width="320" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="320" srcheight="80"/>
+    <textureregion id="11" src="TRIANGLE_ICE_HOLLOW.png" x="336" y="46" width="328" height="82" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="328" srcheight="82"/>
+</texture>

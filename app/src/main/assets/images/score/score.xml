@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<texture version="1" file="SCORE.png" type="bitmap" width="760" height="61" pixelformat="RGBA_8888" minfilter="linear" magfilter="linear" wrapt="clamp" wraps="clamp" premultiplyalpha="false">
+    <!-- Created with TexturePacker http://texturepacker.com -->
+    <!-- $TexturePacker:SmartUpdate:9ac5d8903c810c63a7fe5cd889512ce7$ -->
+    <textureregion id="0" src="BLACK_BIRD_REMAIN_SCORE.png" x="320" y="2" width="156" height="56" rotated="false" trimmed="true" srcx="1" srcy="0" srcwidth="158" srcheight="56"/>
+    <textureregion id="1" src="BLUE_BIRD_REMAIN_SCORE.png" x="2" y="2" width="158" height="56" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="158" srcheight="56"/>
+    <textureregion id="2" src="PIG_DESTROYED_SCORE.png" x="634" y="2" width="124" height="56" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="124" srcheight="56"/>
+    <textureregion id="3" src="RED_BIRD_REMAIN_SCORE.png" x="478" y="2" width="154" height="56" rotated="false" trimmed="true" srcx="2" srcy="0" srcwidth="158" srcheight="56"/>
+    <textureregion id="4" src="YELLOW_BIRD_REMAIN_SCORE.png" x="162" y="2" width="156" height="56" rotated="false" trimmed="true" srcx="1" srcy="0" srcwidth="158" srcheight="56"/>
+</texture>
