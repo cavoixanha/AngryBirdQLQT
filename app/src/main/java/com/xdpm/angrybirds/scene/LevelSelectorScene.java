@@ -34,6 +34,10 @@ public class LevelSelectorScene extends BaseScene{
 	private int mWorldId = 1;
 	private int mStageId = 1;
 	private ArrayList<Color> backgroundColorList;
+
+	private int iStage = 1; // so khung canh chua cac man nho
+	private int iRow = 2; // so dong cua button cua man choi nho
+	private int iCol = 7; // so cot cua button chon man choi nho
 	//==================================================
 	// Constructors
 	//==================================================
@@ -51,10 +55,16 @@ public class LevelSelectorScene extends BaseScene{
 	}
 	
 	public void addStageChoosers() {
+		int countStage = 0; // so luong man choi ban dau la 0
 		TexturePackTextureRegionLibrary menuTexturePackTextureRegionLibrary = ResourceManager.getInstance().getMenuSpriteSheetTexturePackTextureRegionLibrary();
-		for(int stage = 0; stage < 3; stage++){ //need to change
-			for(int i = 0; i < 3; i++){	//need to change
-				for(int j = 0; j < 7; j++){ //need to change
+		for(int stage = 0; stage < iStage; stage++){ //need to change
+			for(int i = 0; i < iRow; i++){	//need to change
+				for(int j = 0; j < iCol; j++){ //need to change
+					// du 10 man choi nho thi dung
+					if(countStage == 10){
+						return;
+					}
+					countStage++;
 					TiledSprite levelChooser = new TiledSprite(stage * Constants.CAMERA_WIDTH + 
 							j * Constants.CAMERA_WIDTH/8 + Constants.CAMERA_WIDTH/16,
 							i * Constants.CAMERA_HEIGHT/4 + Constants.CAMERA_HEIGHT/12, 
@@ -77,10 +87,10 @@ public class LevelSelectorScene extends BaseScene{
 		Sprite firstStage = (Sprite)this.mStageChooseButtonEntity.getChildByIndex(0);
 		for(int count = 1; count < this.mStageChooseButtonEntity.getChildCount(); count++){
 			Sprite temp = (Sprite)this.mStageChooseButtonEntity.getChildByIndex(count);
-			int world = count / (7 * 3);
-			int stage = count % (7 * 3);
-			int row = stage / 7;
-			int col = stage % 7;
+			int world = count / (iCol * iRow);
+			int stage = count % (iCol * iRow);
+			int row = stage / iCol;
+			int col = stage % iCol;
 			temp.setPosition(firstStage.getX() + world * Constants.CAMERA_WIDTH + col * Constants.CAMERA_WIDTH/8,
 							row * Constants.CAMERA_HEIGHT/4 + Constants.CAMERA_HEIGHT/12);
 		}
@@ -92,21 +102,24 @@ public class LevelSelectorScene extends BaseScene{
 			temp.registerEntityModifier(new MoveModifier(0.25f, temp.getX(), temp.getX() + direcMove, temp.getY(), temp.getY()));
 		}
 	}
-	
+	// ham de load ngoi sao va so thu tu man nho nhu la: 1,2,3....
 	public void loadAllLevelStatus(){
-		for(int count = 0; count < 15; count++){
+		int iUnlock = 1; // so luong man da mo khoa
+		for(int count = 0; count < iUnlock; count++){
 			TiledSprite temp = (TiledSprite)this.mStageChooseButtonEntity.getChildByIndex(count);
 			temp.setCurrentTileIndex(mWorldId % 6 + 1);
-			
+			// button cai dat ngoi sao
 			TiledSprite starts = new TiledSprite(5, temp.getHeight() - 25, 
 					ResourceManager.getInstance().getMenuSpriteSheetTexturePackTextureRegionLibrary().get(MenuConstants.START_SCORE_ID, 1, 3), 
 					ResourceManager.getInstance().getBaseGameActivity().getVertexBufferObjectManager());
+			// neu count % 3 bang 0 thi 3 sao, bang 1 thi 2 sao, bang 2 thi 1 sao
 			starts.setCurrentTileIndex(count % 3);
 			
 			Text LevelNum = new Text(0, 0, ResourceManager.getInstance().getAngrybirdFont48(), (count + 1) + "", ResourceManager.getInstance().getBaseGameActivity().getVertexBufferObjectManager());
 			LevelNum.setPosition(temp.getWidth()/2 - LevelNum.getWidth()/2, temp.getHeight()*0.4f - LevelNum.getHeight()/2);
-			
-			temp.attachChild(starts);
+
+			// khoa lai vi khi chay lan dau tien khong co ngoi sao
+			//temp.attachChild(starts);
 			temp.attachChild(LevelNum);
 		}
 	}
@@ -115,11 +128,12 @@ public class LevelSelectorScene extends BaseScene{
 	private Vector2 oldButtonPos;
 	boolean isTouchDown = false;
 	boolean isTouchMove = false;
-	
+	// ham cham de thay doi khung canh
+	// khoa lai vi co 1 khung canh nen su thay doi nay la khong can thiet
 	@Override
 	public boolean onSceneTouchEvent(TouchEvent pSceneTouchEvent) {
 		
-		if(pSceneTouchEvent.getAction() == MotionEvent.ACTION_DOWN){
+		/*if(pSceneTouchEvent.getAction() == MotionEvent.ACTION_DOWN){
 			startTouchPoint = new Vector2(pSceneTouchEvent.getX(), pSceneTouchEvent.getY());
 			oldButtonPos = new Vector2(this.mStageChooseButtonEntity.getChildByIndex(0).getX(),
 					this.mStageChooseButtonEntity.getChildByIndex(0).getY());
@@ -192,7 +206,7 @@ public class LevelSelectorScene extends BaseScene{
 			else{
 				return false;
 			}
-		}
+		}*/
 		return super.onSceneTouchEvent(pSceneTouchEvent);
 	}
 	
