@@ -71,11 +71,13 @@ public class WorldSelectorScene extends BaseScene{
 		else if(pSceneTouchEvent.getAction() == MotionEvent.ACTION_MOVE){
 			if(isTouchDown == true){
 				//isTouchMove = true;
-				Vector2 nowTouchPoint = new Vector2(pSceneTouchEvent.getX(), pSceneTouchEvent.getY());
+				// khoa lai de tranh man choi lon chay qua chay lai khi cham vao bat ky vi tri nao tren man hinh
+				// vi co 3 vong choi lon chu khong phai 11 nhu luc dau
+				/*Vector2 nowTouchPoint = new Vector2(pSceneTouchEvent.getX(), pSceneTouchEvent.getY());
 				Vector2 directionMove = new Vector2(nowTouchPoint.sub(startTouchPoint));
 				this.mWorldSelectorButtonEntity.getChildByIndex(0).setPosition(oldButtonPos.x + directionMove.x, oldButtonPos.y);
 	
-				setButtonSpritePositionAccordingFirstWorldSelector();
+				setButtonSpritePositionAccordingFirstWorldSelector();*/
 			}
 		}
 		else if(pSceneTouchEvent.getAction() == MotionEvent.ACTION_UP){
@@ -94,7 +96,8 @@ public class WorldSelectorScene extends BaseScene{
 				}
 				
 				if(direcMove != 0){
-					moveAllButtonSpriteAcordingDirection(direcMove);
+					// khoa lai de tranh move all button chon de vao man choi lon
+					//moveAllButtonSpriteAcordingDirection(direcMove);
 				}
 				//set isTouchDown = false before we can return
 				isTouchDown = false;
@@ -114,9 +117,10 @@ public class WorldSelectorScene extends BaseScene{
 		}
 		return super.onSceneTouchEvent(pSceneTouchEvent);
 	}
-	
+	// ham tao ra vong choi lon
 	public void addWordSelector(){
-		for(int i = 0; i < 11; i++){
+		// re set so vong choi lon con lai 1
+		for(int i = 0; i < 1; i++){
 			ButtonSprite worldSelector = new ButtonSprite(Constants.DISTANCE_TO_LEFT_SCREEN_OF_LEVEL_BUTTON,
 					Constants.DISTANCE_TO_TOP_SCREEN_OF_LEVEL_BUTTON, 
 					ResourceManager.getInstance().getmLeveSelectorSheetTexturePackTextureRegionLibrary().get(i),
@@ -220,7 +224,8 @@ public class WorldSelectorScene extends BaseScene{
 		this.registerTouchArea(backButtonSelector);
 		
 		//back world selector button
-		final ButtonSprite backWorldSelector = new ButtonSprite(0, Constants.CAMERA_HEIGHT * 4 / 10, 
+		// button chua hinh tam giac qua trai
+		/*final ButtonSprite backWorldSelector = new ButtonSprite(0, Constants.CAMERA_HEIGHT * 4 / 10,
 				menuTexturePackTextureRegionLibrary.get(MenuConstants.TURN_SELECTOR_BUTTON_ID, 2, 1),
 				vertexBufferObjectManager);
 		backWorldSelector.setScale(0.8f);
@@ -233,10 +238,11 @@ public class WorldSelectorScene extends BaseScene{
 					moveAllButtonSpriteAcordingDirection(Constants.CAMERA_WIDTH/5f);
 				}
 			});
-		this.registerTouchArea(backWorldSelector);
+		this.registerTouchArea(backWorldSelector);*/
 		
 		//forward world selector button
-		final ButtonSprite forwardWorldSelector = new ButtonSprite(Constants.CAMERA_WIDTH - 70, Constants.CAMERA_HEIGHT * 4 / 10, 
+		// button chua hinh tam giac qua phai
+		/*final ButtonSprite forwardWorldSelector = new ButtonSprite(Constants.CAMERA_WIDTH - 70, Constants.CAMERA_HEIGHT * 4 / 10,
 				menuTexturePackTextureRegionLibrary.get(MenuConstants.TURN_SELECTOR_BUTTON_ID, 2, 1),
 				vertexBufferObjectManager);
 		forwardWorldSelector.setScale(0.8f);
@@ -249,7 +255,7 @@ public class WorldSelectorScene extends BaseScene{
 					moveAllButtonSpriteAcordingDirection(-Constants.CAMERA_WIDTH/5f);
 				}
 			});
-		this.registerTouchArea(forwardWorldSelector);
+		this.registerTouchArea(forwardWorldSelector);*/
 		
 		this.mBacgroundEntity = new Entity();
 		this.mBacgroundEntity.attachChild(backgroudGroupLevel);
@@ -267,8 +273,8 @@ public class WorldSelectorScene extends BaseScene{
 
 		this.mOtherButtonEntity = new Entity();
 		this.mOtherButtonEntity.attachChild(backButtonSelector);
-		this.mOtherButtonEntity.attachChild(backWorldSelector);
-		this.mOtherButtonEntity.attachChild(forwardWorldSelector);
+		//this.mOtherButtonEntity.attachChild(backWorldSelector);
+		//this.mOtherButtonEntity.attachChild(forwardWorldSelector);
 		
 		for(int i = 0; i < this.mWorldSelectorButtonEntity.getChildCount(); i++){
 			ButtonSprite btnSprite = (ButtonSprite) this.mWorldSelectorButtonEntity.getChildByIndex(i);
