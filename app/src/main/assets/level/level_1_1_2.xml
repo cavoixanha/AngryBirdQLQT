@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <level>
     <arbalest x="200" y="545" ></arbalest>
-    <bird x="300" y="696" type="red" ></bird>
-    <bird x="450" y="696" type="red" ></bird>
-    <bird x="500" y="696" type="blue" ></bird>
-    <bird x="550" y="696" type="blue" ></bird>
-    <barrier x="1155" y="670" type="wood" class="straight-01" rotation="90" ></barrier>
-    <barrier x="1345" y="670" type="wood" class="straight-01" rotation="90" ></barrier>
-    <barrier x="1250" y="520" type="wood" class="straight-01" rotation="0" ></barrier>
-    <barrier x="970" y="710" type="ice" class="straight-03" rotation="0" ></barrier>
-    <barrier x="940" y="670" type="ice" class="straight-03" rotation="90" ></barrier>
-    <barrier x="1000" y="670" type="ice" class="straight-03" rotation="90" ></barrier>
-    <barrier x="970" y="580" type="ice" class="straight-03" rotation="0" ></barrier>
-    <pig x="1310" y="450" type="normal" rotation="0" ></pig>
+    <bird x="250" y="696" type="red" ></bird>
+    <bird x="320" y="696" type="red" ></bird>
+    <bird x="400" y="715" type="blue" ></bird>
+    <bird x="450" y="715" type="blue" ></bird>
+
+    <barrier x="955" y="670" type="ice" class="straight-01" rotation="90" ></barrier>
+    <barrier x="1145" y="670" type="ice" class="straight-01" rotation="90" ></barrier>
+    <barrier x="1155" y="670" type="ice" class="straight-01" rotation="90" ></barrier>
+    <barrier x="1345" y="670" type="ice" class="straight-01" rotation="90" ></barrier>
+
+    <barrier x="1250" y="540" type="wood" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1050" y="540" type="wood" class="straight-01" rotation="0" ></barrier>
+
+    <barrier x="1035" y="420" type="wood" class="straight-01" rotation="90" ></barrier>
+    <barrier x="1225" y="420" type="wood" class="straight-01" rotation="90" ></barrier>
+
+    <barrier x="1125" y="310" type="wood" class="straight-01" rotation="0" ></barrier>
+
+    <pig x="1125" y="660" type="normal" rotation="0" ></pig>
+    <pig x="1325" y="660" type="normal" rotation="0" ></pig>
+
+    <pig x="1040" y="470" type="normal" rotation="0" ></pig>
+    <pig x="1215" y="470" type="normal" rotation="0" ></pig>
+    <pig x="1345" y="470" type="normal" rotation="0" ></pig>
+
     <next-level worldId="1" stageId="1" levelId="3" ></next-level>
 </level>
