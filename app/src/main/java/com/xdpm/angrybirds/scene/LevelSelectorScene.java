@@ -77,7 +77,10 @@ public class LevelSelectorScene extends BaseScene{
 					mbsLevelChooser.setWorldId(mWorldId);	//set world
 					
 					this.mStageChooseButtonEntity.attachChild(mbsLevelChooser.getEntity());
-					this.registerTouchArea(mbsLevelChooser.getEntity());
+					// chi cho phep cham vao nhung man choi da mo khoa
+					if(i == 0 && j == 0){// day la man dau tien
+						this.registerTouchArea(mbsLevelChooser.getEntity());
+					}
 				}
 			}
 		}

@@ -14,13 +14,16 @@
     <barrier x="1250" y="540" type="wood" class="straight-01" rotation="0" ></barrier>
     <barrier x="1050" y="540" type="wood" class="straight-01" rotation="0" ></barrier>
 
-    <barrier x="1035" y="420" type="wood" class="straight-01" rotation="90" ></barrier>
-    <barrier x="1225" y="420" type="wood" class="straight-01" rotation="90" ></barrier>
+    <barrier x="1035" y="420" type="ice" class="straight-01" rotation="90" ></barrier>
+    <barrier x="1225" y="420" type="ice" class="straight-01" rotation="90" ></barrier>
 
     <barrier x="1125" y="310" type="wood" class="straight-01" rotation="0" ></barrier>
 
-    <pig x="1125" y="660" type="normal" rotation="0" ></pig>
-    <pig x="1325" y="660" type="normal" rotation="0" ></pig>
+    <barrier x="900" y="675" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="900" y="590" type="ice" class="square-hollow" rotation="0" ></barrier>
+
+    <pig x="1125" y="675" type="normal" rotation="0" ></pig>
+    <pig x="1325" y="675" type="normal" rotation="0" ></pig>
 
     <pig x="1040" y="470" type="normal" rotation="0" ></pig>
     <pig x="1215" y="470" type="normal" rotation="0" ></pig>
