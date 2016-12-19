@@ -48,7 +48,10 @@ public class MainGameScene extends BaseScene implements IPinchZoomDetectorListen
 	private PinchZoomDetector mPinchZoomDetector;
 	private SurfaceScrollDetector mSurfaceScrollDetector;
 	
-	private int mWorldId = 1;
+	private static int mWorldId = 1;
+	public static void setmWorldId(int mWorldId) {
+		MainGameScene.mWorldId = mWorldId;
+	}
 	private int mStageId = 1;
 	private int mLevelId = 1;
 	
@@ -171,9 +174,10 @@ public class MainGameScene extends BaseScene implements IPinchZoomDetectorListen
 //		this.mLevelId = Settings.getInstance().getLevelId();
 		
 		//fake game level load
-		this.mWorldId = 1;
+		// change worldID
+		//this.mWorldId = 1;
 		this.mStageId = 1;
-		this.mLevelId = Settings.getInstance().getLevelId() % 6 + 1;
+		this.mLevelId = Settings.getInstance().getLevelId() % 10 + 1;
 		
 		// Repair Game Data
 		GameLevelManager.getInstance().setMainGameScene(this);

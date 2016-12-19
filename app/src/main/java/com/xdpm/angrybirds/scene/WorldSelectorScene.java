@@ -120,7 +120,7 @@ public class WorldSelectorScene extends BaseScene{
 	// ham tao ra vong choi lon
 	public void addWordSelector(){
 		// re set so vong choi lon con lai 1
-		for(int i = 0; i < 1; i++){
+		for(int i = 0; i < 3; i++){
 			ButtonSprite worldSelector = new ButtonSprite(Constants.DISTANCE_TO_LEFT_SCREEN_OF_LEVEL_BUTTON,
 					Constants.DISTANCE_TO_TOP_SCREEN_OF_LEVEL_BUTTON, 
 					ResourceManager.getInstance().getmLeveSelectorSheetTexturePackTextureRegionLibrary().get(i),
@@ -284,6 +284,8 @@ public class WorldSelectorScene extends BaseScene{
 				@Override
 				public void onClick(ButtonSprite arg0, float arg1, float arg2) {
 					mWorldId = temp + 1;
+					// set world id
+					MainGameScene.setmWorldId(mWorldId);
 					Debug.e("show level " + mWorldId);
 					ResourceManager.getInstance().getBaseGameActivity()
 					.getSharedPreferences(Constants.SHARED_PREF_LEVELSELECTOR, 0).edit()

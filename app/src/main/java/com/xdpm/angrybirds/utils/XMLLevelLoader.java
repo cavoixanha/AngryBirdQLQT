@@ -148,7 +148,7 @@ public class XMLLevelLoader {
 		AssetManager assetManager = ResourceManager.getInstance().getBaseGameActivity().getAssets();
 		
     	String fileName = String.format(FILE_NAME_PATTERN, worldId, stageId, levelId);
-
+		Debug.e(fileName);
     	try {
     		
             XMLReader xmlReader = SAXParserFactory.newInstance().newSAXParser().getXMLReader();
