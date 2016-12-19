@@ -173,7 +173,7 @@ public class MainGameScene extends BaseScene implements IPinchZoomDetectorListen
 		//fake game level load
 		this.mWorldId = 1;
 		this.mStageId = 1;
-		this.mLevelId = Settings.getInstance().getLevelId() % 5 + 1;
+		this.mLevelId = Settings.getInstance().getLevelId() % 6 + 1;
 		
 		// Repair Game Data
 		GameLevelManager.getInstance().setMainGameScene(this);

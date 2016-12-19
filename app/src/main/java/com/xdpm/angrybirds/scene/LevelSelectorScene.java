@@ -78,9 +78,9 @@ public class LevelSelectorScene extends BaseScene{
 					
 					this.mStageChooseButtonEntity.attachChild(mbsLevelChooser.getEntity());
 					// chi cho phep cham vao nhung man choi da mo khoa
-					if(i == 0 && j == 0){// day la man dau tien
+					//if(i == 0 && j == 0){// day la man dau tien
 						this.registerTouchArea(mbsLevelChooser.getEntity());
-					}
+					//}
 				}
 			}
 		}
@@ -107,7 +107,7 @@ public class LevelSelectorScene extends BaseScene{
 	}
 	// ham de load ngoi sao va so thu tu man nho nhu la: 1,2,3....
 	public void loadAllLevelStatus(){
-		int iUnlock = 1; // so luong man da mo khoa
+		int iUnlock = 10; // so luong man da mo khoa
 		for(int count = 0; count < iUnlock; count++){
 			TiledSprite temp = (TiledSprite)this.mStageChooseButtonEntity.getChildByIndex(count);
 			temp.setCurrentTileIndex(mWorldId % 6 + 1);
@@ -326,15 +326,15 @@ public class LevelSelectorScene extends BaseScene{
 	public void onUnLoadScene(OnUnLoadSceneCallBack pOnUnLoadSceneCallBack)
 			throws Exception {
 		// TODO Auto-generated method stub
-		
+
 		Debug.e("onUnLoadScene");
-		
+
 		this.detachChildren();
 		this.clearChildScene();
 		this.clearUpdateHandlers();
 		this.clearEntityModifiers();
 		this.clearTouchAreas();
-		
+
 		pOnUnLoadSceneCallBack.onUnLoadSceneFinish();
 	}
 }
