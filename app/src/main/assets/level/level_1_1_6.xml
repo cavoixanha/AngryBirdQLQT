@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+    <arbalest x="200" y="545" ></arbalest>
+    <bird x="300" y="696" type="red" ></bird>
+    <bird x="350" y="696" type="blue" ></bird>
+
+    <barrier x="900" y="590" type="ice" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="900" y="675" type="ice" class="square-hollow" rotation="0" ></barrier>
+
+    <barrier x="982" y="590" type="ice" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="982" y="675" type="ice" class="square-hollow" rotation="0" ></barrier>
+
+    <barrier x="982" y="510" type="ice" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="982" y="425" type="ice" class="square-hollow" rotation="0" ></barrier>
+
+    <barrier x="900" y="510" type="ice" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="900" y="425" type="ice" class="square-hollow" rotation="0" ></barrier>
+
+    <barrier x="941" y="395" type="stone" class="square-01" rotation="0" ></barrier>
+
+    <barrier x="1070" y="660" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1227" y="660" type="wood" class="straight-02" rotation="90" ></barrier>
+   <barrier x="1130" y="600" type="wood" class="straight-01" rotation="0" ></barrier>
+    <!--<barrier x="1130" y="660" type="ice" class="straight-01" rotation="135" ></barrier>-->
+
+    <barrier x="1260" y="660" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1417" y="660" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1320" y="600" type="wood" class="straight-01" rotation="0" ></barrier>
+    <!--<barrier x="1320" y="660" type="ice" class="straight-01" rotation="45" ></barrier>-->
+
+    <barrier x="1070" y="475" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1227" y="475" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1130" y="415" type="wood" class="straight-01" rotation="0" ></barrier>
+    <!--<barrier x="1130" y="475" type="ice" class="straight-01" rotation="135" ></barrier>-->
+
+    <barrier x="1260" y="475" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1417" y="475" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1320" y="415" type="wood" class="straight-01" rotation="0" ></barrier>
+    <!--<barrier x="1320" y="475" type="ice" class="straight-01" rotation="45" ></barrier>-->
+
+    <barrier x="1070" y="290" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1227" y="290" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1130" y="230" type="wood" class="straight-01" rotation="0" ></barrier>
+    <!--<barrier x="1130" y="290" type="ice" class="straight-01" rotation="135" ></barrier>-->
+
+    <barrier x="1260" y="290" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1417" y="290" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1320" y="230" type="wood" class="straight-01" rotation="0" ></barrier>
+    <!--<barrier x="1320" y="290" type="ice" class="straight-01" rotation="45" ></barrier>-->
+
+    <pig x="700" y="630" type="king" rotation="0" ></pig>
+    <next-level worldId="1" stageId="1" levelId="7" ></next-level>
+</level>

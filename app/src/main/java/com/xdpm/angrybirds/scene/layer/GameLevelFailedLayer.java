@@ -115,8 +115,9 @@ public class GameLevelFailedLayer extends BaseLayer {
 			
 			@Override
 			public void onButtonClick() {
-				GameLevelFailedLayer.this.hideScene();
-				GameLevelManager.getInstance().showNextGameLevel();
+				// khoa lai vi choi game failed thi khong dc phep qua man moi
+				//GameLevelFailedLayer.this.hideScene();
+				//GameLevelManager.getInstance().showNextGameLevel();
 			}
 		};
 		
