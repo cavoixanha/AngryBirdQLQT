@@ -20,5 +20,5 @@
     <textureregion id="15" src="BUTTON_TWISTER.png" x="394" y="139" width="55" height="59" rotated="false" trimmed="true" srcx="1" srcy="3" srcwidth="59" srcheight="67"/>
     <textureregion id="16" src="MENU_BACKGROUND_BUTTON.png" x="258" y="94" width="72" height="80" rotated="false" trimmed="true" srcx="4" srcy="5" srcwidth="80" srcheight="90"/>
     <textureregion id="17" src="MENU_FANPAGE_BUTTON.png" x="278" y="178" width="32" height="38" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="46" srcheight="28"/>
-    <textureregion id="18" src="MENU_SETTING_BUTTON.png" x="452" y="58" width="50" height="50" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="54" srcheight="50"/>
+    <textureregion id="18" src="MENU_SETTING_BUTTON.png" x="452" y="58" width="50" height="50" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="50" srcheight="50"/>
 </texture>
