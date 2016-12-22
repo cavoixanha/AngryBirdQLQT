@@ -1,48 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <level>
     <arbalest x="200" y="545" ></arbalest>
-    <!--<bird x="300" y="696" type="yellow" ></bird>-->
-    <!--<bird x="350" y="696" type="red" ></bird>-->
-    <!--<bird x="400" y="696" type="blue" ></bird>-->
-    <!--<bird x="450" y="696" type="yellow" ></bird>-->
-    <!--<bird x="500" y="696" type="blue" ></bird>-->
-    <bird x="300" y="696" type="red" ></bird>
+    <bird x="300" y="696" type="yellow" ></bird>
     <bird x="350" y="696" type="blue" ></bird>
-    <bird x="400" y="696" type="yellow" ></bird>
+    <bird x="400" y="696" type="black" ></bird>
     <bird x="450" y="696" type="yellow" ></bird>
-    <bird x="500" y="696" type="blue" ></bird>
+    <bird x="500" y="696" type="red" ></bird>
 
     <!--cột 1-->
     <barrier x="510" y="713" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <barrier x="555" y="693" type="wood" class="straight-03" rotation="0" ></barrier>
-    <barrier x="587" y="614" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <barrier x="510" y="594" type="wood" class="straight-02" rotation="0" ></barrier>
+    <barrier x="565" y="693" type="wood" class="straight-03" rotation="0" ></barrier>
+    <barrier x="565" y="611" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="536" y="591" type="wood" class="straight-02" rotation="0" ></barrier>
+
+    <pig x="656" y="712" type="normal" rotation="0" ></pig>
 
     <!--cột 2-->
     <barrier x="797" y="713" type="stone" class="square-hollow" rotation="0" ></barrier>
     <barrier x="797" y="693" type="wood" class="straight-03" rotation="0" ></barrier>
     <barrier x="797" y="614" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <barrier x="703" y="594" type="wood" class="straight-01" rotation="0" ></barrier>
+    <barrier x="708" y="594" type="wood" class="straight-01" rotation="0" ></barrier>
     <!--cột 2-->
+
+    <pig x="892" y="698" type="old" rotation="0" ></pig>
 
     <!--dãy 3-->
     <barrier x="1041" y="714" type="wood" class="square-01" rotation="90" ></barrier>
-    <barrier x="1056" y="694" type="wood" class="straight-01" rotation="0" ></barrier>
-
-    <barrier x="1021" y="654" type="wood" class="square-01" rotation="0" ></barrier>
-    <barrier x="1122" y="654" type="wood" class="square-01" rotation="0" ></barrier>
-    <barrier x="1204" y="654" type="wood" class="square-01" rotation="90" ></barrier>
     <!--hang tiep theo-->
-    <barrier x="1021" y="614" type="wood" class="square-03" rotation="0" ></barrier>
-    <barrier x="1079" y="614" type="wood" class="square-01" rotation="0" ></barrier>
-    <barrier x="1164" y="614" type="wood" class="square-03" rotation="0" ></barrier>
+    <barrier x="1058" y="694" type="wood" class="straight-01" rotation="0" ></barrier>
     <!--hang tiep theo-->
-    <barrier x="1191" y="574" type="wood" class="square-03" rotation="0" ></barrier>
+    <barrier x="1066" y="654" type="wood" class="square-01" rotation="0" ></barrier>
+    <barrier x="1139" y="654" type="wood" class="square-01" rotation="0" ></barrier>
+    <barrier x="1202" y="654" type="wood" class="square-01" rotation="90" ></barrier>
+    <!--hang tiep theo-->
+    <barrier x="1062" y="613" type="wood" class="square-02" rotation="0" ></barrier>
+    <barrier x="1104" y="613" type="wood" class="square-01" rotation="0" ></barrier>
+    <barrier x="1187" y="613" type="wood" class="square-02" rotation="0" ></barrier>
+    <!--hang tiep theo-->
+    <pig x="1093" y="574" type="normal" rotation="0" ></pig>
+    <barrier x="1222" y="574" type="wood" class="square-02" rotation="0" ></barrier>
+    <!--hang tiep theo-->
+    <barrier x="1214" y="554" type="wood" class="straight-03" rotation="0" ></barrier>
+    <!--hang tiep theo-->
+    <barrier x="1208" y="534" type="wood" class="square-01" rotation="0" ></barrier>
+    <!--hang tiep theo-->
+    <barrier x="1208" y="514" type="stone" class="straight-04" rotation="90" ></barrier>
+    <pig x="1237" y="510" type="small" rotation="0" ></pig>
 
-    <barrier x="1192" y="714" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1206" y="714" type="wood" class="square-01" rotation="90" ></barrier>
     <!--dãy 3-->
 
+    <pig x="1256" y="712" type="helmet" rotation="0" ></pig>
+
     <!--dãy 4-->
+    <barrier x="1361" y="713" type="wood" class="square-02" rotation="0" ></barrier>
+    <!--hang tiep theo-->
+    <barrier x="1357" y="694" type="wood" class="straight-01" rotation="0" ></barrier>
+    <!--hang tiep theo-->
+    <barrier x="1348" y="654" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1402" y="674" type="wood" class="square-01" rotation="0" ></barrier>
+    <barrier x="1480" y="674" type="wood" class="square-01" rotation="0" ></barrier>
+    <!--hang tiep theo-->
+    <barrier x="1404" y="654" type="wood" class="square-02" rotation="0" ></barrier>
+    <barrier x="1450" y="654" type="wood" class="square-01" rotation="0" ></barrier>
+    <barrier x="1519" y="654" type="wood" class="square-02" rotation="0" ></barrier>
+    <!--hang tiep theo-->
+    <barrier x="1367" y="613" type="wood" class="square-02" rotation="0" ></barrier>
+    <pig x="1421" y="615" type="normal" rotation="0" ></pig>
+    <!--hang tiep theo-->
+    <barrier x="1334" y="572" type="wood" class="straight-03" rotation="0" ></barrier>
+    <!--hang tiep theo-->
+    <barrier x="1335" y="542" type="wood" class="square-01" rotation="0" ></barrier>
+    <!--hang tiep theo-->
+    <barrier x="1377" y="504" type="stone" class="straight-04" rotation="90" ></barrier>
+
+    <barrier x="1521" y="713" type="wood" class="square-02" rotation="0" ></barrier>
     <!--dãy 4-->
 
     <next-level worldId="2" stageId="1" levelId="1" ></next-level>
