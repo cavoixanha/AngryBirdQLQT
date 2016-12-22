@@ -11,6 +11,9 @@
     <bird x="450" y="715" type="blue" ></bird>
 
     <barrier x="955" y="670" type="wood" class="straight-01" rotation="90" ></barrier>
+
+    <pig x="1095" y="706" type="helmet" rotation="0" ></pig>
+
     <barrier x="1145" y="670" type="wood" class="straight-01" rotation="90" ></barrier>
     <barrier x="1155" y="670" type="wood" class="straight-01" rotation="90" ></barrier>
     <barrier x="1345" y="670" type="wood" class="straight-01" rotation="90" ></barrier>
@@ -19,8 +22,16 @@
     <barrier x="1050" y="540" type="wood" class="straight-01" rotation="0" ></barrier>
 
     <barrier x="1030" y="490" type="ice" class="straight-03" rotation="90" ></barrier>
+
+    <pig x="1180" y="492" type="small" rotation="0" ></pig>
+
+    <pig x="1280" y="492" type="small" rotation="0" ></pig>
+
     <barrier x="1205" y="490" type="ice" class="straight-03" rotation="90" ></barrier>
     <barrier x="1215" y="490" type="ice" class="straight-03" rotation="90" ></barrier>
+
+    <pig x="1300" y="706" type="helmet" rotation="0" ></pig>
+
     <barrier x="1395" y="490" type="ice" class="straight-03" rotation="90" ></barrier>
 
 
