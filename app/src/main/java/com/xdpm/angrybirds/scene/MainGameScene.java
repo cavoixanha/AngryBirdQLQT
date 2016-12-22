@@ -1,5 +1,7 @@
 package com.xdpm.angrybirds.scene;
 
+import android.util.Log;
+
 import org.andengine.engine.camera.hud.HUD;
 import org.andengine.entity.IEntity;
 import org.andengine.entity.primitive.Rectangle;
@@ -178,6 +180,7 @@ public class MainGameScene extends BaseScene implements IPinchZoomDetectorListen
 		//this.mWorldId = 1;
 		this.mStageId = 1;
 		this.mLevelId = Settings.getInstance().getLevelId() % 10 + 1;
+		Log.d("Scene","this.mLevelId: " + Settings.getInstance().getLevelId());
 		
 		// Repair Game Data
 		GameLevelManager.getInstance().setMainGameScene(this);
