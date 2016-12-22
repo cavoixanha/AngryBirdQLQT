@@ -3,20 +3,51 @@
     <arbalest x="200" y="545" ></arbalest>
     <bird x="300" y="696" type="yellow" ></bird>
     <bird x="350" y="696" type="yellow" ></bird>
+    <bird x="500" y="696" type="black" ></bird>
     <bird x="450" y="696" type="yellow" ></bird>
-    <barrier x="1155" y="635" type="wood" class="straight-01" rotation="90" ></barrier>
-    <barrier x="1345" y="635" type="ice" class="straight-01" rotation="90" ></barrier>
-    <barrier x="1250" y="530" type="ice" class="straight-01" rotation="0" ></barrier>
-    <barrier x="800" y="635" type="ice" class="straight-01" rotation="90" ></barrier>
-    <barrier x="990" y="635" type="wood" class="straight-01" rotation="90" ></barrier>
-    <barrier x="895" y="530" type="ice" class="straight-01" rotation="0" ></barrier>
-    
-    <barrier x="1155" y="420" type="wood" class="straight-01" rotation="90" ></barrier>
-    <barrier x="990" y="420" type="wood" class="straight-01" rotation="90" ></barrier>
-    <barrier x="1070" y="300" type="wood" class="straight-01" rotation="0" ></barrier>
-    
-    <pig x="950" y="650" type="small" rotation="0" ></pig>
-    <pig x="1150" y="670" type="normal" rotation="0" ></pig>
-     <pig x="1300" y="650" type="small" rotation="0" ></pig>
+
+    <barrier x="902" y="733" type="stone" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1105" y="733" type="stone" class="straight-01" rotation="0" ></barrier>
+    //wood
+    <barrier x="882" y="672" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="922" y="672" type="wood" class="square-01" rotation="90" ></barrier>
+
+    <barrier x="1083" y="672" type="wood" class="square-01" rotation="90" ></barrier>
+
+    <barrier x="1245" y="672" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1205" y="672" type="wood" class="square-01" rotation="90" ></barrier>
+    //
+    <barrier x="902" y="610" type="wood" class="square-01" rotation="0" ></barrier>
+    <barrier x="1225" y="610" type="wood" class="square-01" rotation="0" ></barrier>
+    //
+    <barrier x="1020.5" y="630" type="wood" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1020.5" y="610" type="wood" class="straight-01" rotation="0" ></barrier>
+    //
+    <barrier x="902" y="589" type="wood" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1105" y="589" type="wood" class="straight-01" rotation="0" ></barrier>
+    <!--//-->
+    <barrier x="901" y="549" type="wood" class="square-02" rotation="0" ></barrier>
+    <barrier x="901" y="509" type="wood" class="square-02" rotation="0" ></barrier>
+    <barrier x="1266" y="549" type="wood" class="square-02" rotation="0" ></barrier>
+    <barrier x="1266" y="509" type="wood" class="square-02" rotation="0" ></barrier>
+    <!--//-->
+    <barrier x="1055" y="540" type="wood" class="straight-03" rotation="90" ></barrier>
+    <barrier x="1075" y="540" type="wood" class="straight-03" rotation="90" ></barrier>
+    <!--//-->
+    <barrier x="902" y="489" type="wood" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1105" y="489" type="wood" class="straight-01" rotation="0" ></barrier>
+    <barrier x="902" y="469" type="wood" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1105" y="469" type="wood" class="straight-01" rotation="0" ></barrier>
+    <!--//stone-->
+    <barrier x="902" y="427" type="stone" class="square-02" rotation="0" ></barrier>
+    <barrier x="1002" y="427" type="stone" class="square-02" rotation="0" ></barrier>
+    <barrier x="1055" y="427" type="stone" class="square-02" rotation="0" ></barrier>
+    <barrier x="1262" y="427" type="stone" class="square-02" rotation="0" ></barrier>
+    <barrier x="1162" y="427" type="stone" class="square-02" rotation="0" ></barrier>
+    <!-- pig -->
+    <pig x="1002" y="710" type="small" rotation="0" ></pig>
+    <pig x="1162" y="710" type="small" rotation="0" ></pig>
+    <pig x="1002" y="550" type="small" rotation="0" ></pig>
+    <pig x="1152" y="550" type="small" rotation="0" ></pig>
     <next-level worldId="1" stageId="1" levelId="5" ></next-level>
 </level>
