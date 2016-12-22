@@ -120,7 +120,7 @@ public class Background {
 		this.mLowFrontParallel = SpriteUtils.createRepeatingSprite(lowFrontTextureRegion, 
 				(Constants.CAMERA_BOUND_WIDTH / lowFrontTextureRegion.getWidth() + 1) * lowFrontTextureRegion.getWidth(),
 				lowFrontTextureRegion.getHeight(), baseGameActivity);
-		this.mLowFrontParallel.setPosition(0, this.mGroundParallel.getY() - lowFrontTextureRegion.getHeight());
+		this.mLowFrontParallel.setPosition(0, this.mGroundParallel.getY() - lowFrontTextureRegion.getHeight()+12);
 		
 		// Front high 
 		TextureRegion highFrontTextureRegion = ResourceManager.getInstance().getHighFrontParallelTextureRegion();
@@ -136,7 +136,7 @@ public class Background {
 		this.mHighBehindParallel = SpriteUtils.createRepeatingSprite(highBehindTextureRegion, 
 				(Constants.CAMERA_BOUND_WIDTH / highBehindTextureRegion.getWidth() + 1) * highBehindTextureRegion.getWidth(), 
 				highBehindTextureRegion.getHeight(), baseGameActivity);
-		this.mHighBehindParallel.setPosition(0, this.mGroundParallel.getY() - highBehindTextureRegion.getHeight());
+		this.mHighBehindParallel.setPosition(0, this.mGroundParallel.getY() - highBehindTextureRegion.getHeight()+12);
 		
 		
 		// Behind low
@@ -145,7 +145,7 @@ public class Background {
 		this.mLowBehindParallel = SpriteUtils.createRepeatingSprite(lowBehindTextureRegion, 
 				(Constants.CAMERA_BOUND_WIDTH / lowBehindTextureRegion.getWidth() + 1) * lowBehindTextureRegion.getWidth(), 
 				lowBehindTextureRegion.getHeight(), baseGameActivity);
-		this.mLowBehindParallel.setPosition(0, this.mGroundParallel.getY() - lowBehindTextureRegion.getHeight());
+		this.mLowBehindParallel.setPosition(0, this.mHighBehindParallel.getY() - lowBehindTextureRegion.getHeight()+12);
 		
 		// Top 
 		TextureRegion topTextureRegion = ResourceManager.getInstance().getTopGroundParallelTextureRegion();
@@ -160,8 +160,8 @@ public class Background {
 		this.mBaseScene.attachChild(this.mTopGroundParallel);
 		this.mBaseScene.attachChild(this.mLowBehindParallel);
 		this.mBaseScene.attachChild(this.mHighBehindParallel);
-		this.mBaseScene.attachChild(this.mHighFrontParallel);
-		this.mBaseScene.attachChild(this.mLowFrontParallel);
+		//this.mBaseScene.attachChild(this.mHighFrontParallel);
+		//this.mBaseScene.attachChild(this.mLowFrontParallel);
 		this.mBaseScene.attachChild(this.mGroundParallel);
 		this.mBaseScene.attachChild(this.mAngryBirdTextSprite);
 	}

@@ -2,9 +2,9 @@
 <level>
     <arbalest x="200" y="545" ></arbalest>
     <bird x="400" y="696" type="yellow" ></bird>
-    <bird x="450" y="696" type="yellow" ></bird>
-    <bird x="500" y="696" type="yellow" ></bird>
-
+    <bird x="450" y="696" type="black" ></bird>
+    <bird x="500" y="696" type="blue" ></bird>
+    <bird x="500" y="696" type="blue" ></bird>
     <!-- THANH STONE SQUARE_01 DUNG-->
     <barrier x="1500" y="690" type="stone" class="square-01" rotation="90" ></barrier>
     <!-- ////////////////////////////-->

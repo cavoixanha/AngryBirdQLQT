@@ -7,6 +7,7 @@ import org.andengine.extension.physics.box2d.PhysicsWorld;
 import org.andengine.opengl.texture.region.ITiledTextureRegion;
 import org.andengine.opengl.texture.region.TiledTextureRegion;
 import org.andengine.util.texturepack.TexturePackTextureRegionLibrary;
+import org.andengine.util.debug.Debug;
 
 import com.badlogic.gdx.physics.box2d.BodyDef.BodyType;
 import com.badlogic.gdx.physics.box2d.Contact;
@@ -32,36 +33,47 @@ public class IceBarrierObject extends BaseBarrierObject{
 		switch (pBarrierClass) {
 		case BarrierConstants.CLASS_STRAIGHT_01:
 			tiledTextureRegion = barrierTexturePackLibrary.get(BarrierConstants.STRAIGHT_ICE_01_ID, 4, 1);
+            Debug.e("ICE CLASS_STRAIGHT_01: w = " + tiledTextureRegion.getWidth() + ", h = " + tiledTextureRegion.getHeight());
 			break;
 		case BarrierConstants.CLASS_STRAIGHT_02:
 			tiledTextureRegion = barrierTexturePackLibrary.get(BarrierConstants.STRAIGHT_ICE_02_ID, 4, 1);
+            Debug.e("ICE CLASS_STRAIGHT_02: w = " + tiledTextureRegion.getWidth() + ", h = " + tiledTextureRegion.getHeight());
 			break;
 		case BarrierConstants.CLASS_STRAIGHT_03:
 			tiledTextureRegion = barrierTexturePackLibrary.get(BarrierConstants.STRAIGHT_ICE_03_ID, 4, 1);
+            Debug.e("ICE CLASS_STRAIGHT_03: w = " + tiledTextureRegion.getWidth() + ", h = " + tiledTextureRegion.getHeight());
 			break;
 		case BarrierConstants.CLASS_STRAIGHT_04:
 			tiledTextureRegion = barrierTexturePackLibrary.get(BarrierConstants.STRAIGHT_ICE_04_ID, 4, 1);
+            Debug.e("ICE CLASS_STRAIGHT_04: w = " + tiledTextureRegion.getWidth() + ", h = " + tiledTextureRegion.getHeight());
 			break;
 		case BarrierConstants.CLASS_SQUARE_01:
 			tiledTextureRegion = barrierTexturePackLibrary.get(BarrierConstants.SQUARE_ICE_01_ID, 4, 1);
+            Debug.e("ICE CLASS_SQUARE_01: w = " + tiledTextureRegion.getWidth() + ", h = " + tiledTextureRegion.getHeight());
 			break;
 		case BarrierConstants.CLASS_SQUARE_02:
 			tiledTextureRegion = barrierTexturePackLibrary.get(BarrierConstants.SQUARE_ICE_02_ID, 4, 1);
+            Debug.e("ICE CLASS_SQUARE_02: w = " + tiledTextureRegion.getWidth() + ", h = " + tiledTextureRegion.getHeight());
 			break;
 		case BarrierConstants.CLASS_SQUARE_HOLLOW:
 			tiledTextureRegion = barrierTexturePackLibrary.get(BarrierConstants.SQUARE_ICE_HOLLOW_ID, 4, 1);
+            Debug.e("ICE CLASS_SQUARE_HOLLOW: w = " + tiledTextureRegion.getWidth() + ", h = " + tiledTextureRegion.getHeight());
 			break;
 		case BarrierConstants.CLASS_TRIANGLE_FILLED:
 			tiledTextureRegion = barrierTexturePackLibrary.get(BarrierConstants.TRIANGLE_ICE_FILLED_ID, 4, 1);
+            Debug.e("ICE CLASS_TRIANGLE_FILLED: w = " + tiledTextureRegion.getWidth() + ", h = " + tiledTextureRegion.getHeight());
 			break;
 		case BarrierConstants.CLASS_TRIANGLE_HOLLOW:
 			tiledTextureRegion = barrierTexturePackLibrary.get(BarrierConstants.TRIANGLE_ICE_HOLLOW_ID, 4, 1);
+            Debug.e("ICE CLASS_TRIANGLE_HOLLOW: w = " + tiledTextureRegion.getWidth() + ", h = " + tiledTextureRegion.getHeight());
 			break;
 		case BarrierConstants.CLASS_CIRCLE_BIG:
 			tiledTextureRegion = barrierTexturePackLibrary.get(BarrierConstants.CIRCLE_ICE_BIG_ID, 4, 1);
+            Debug.e("ICE CLASS_CIRCLE_BIG: w = " + tiledTextureRegion.getWidth() + ", h = " + tiledTextureRegion.getHeight());
 			break;
 		case BarrierConstants.CLASS_CIRCLE_SMALL:
 			tiledTextureRegion = barrierTexturePackLibrary.get(BarrierConstants.CIRCLE_ICE_SMALL_ID, 4, 1);
+            Debug.e("ICE CLASS_CIRCLE_SMALL: w = " + tiledTextureRegion.getWidth() + ", h = " + tiledTextureRegion.getHeight());
 			break;
 
 		default:
