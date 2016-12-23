@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+    <arbalest x="200" y="545" ></arbalest>
+
+
+
+    <barrier x="585" y="713" type="stone" class="square-01" rotation="0" ></barrier>
+
+
+  <!--   <pig x="1480" y="441" type="king" rotation="0" ></pig> -->
+    <next-level worldId="2" stageId="1" levelId="10" ></next-level>
+</level>

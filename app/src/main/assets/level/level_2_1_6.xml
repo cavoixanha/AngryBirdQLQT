@@ -3,11 +3,11 @@
     <arbalest x="200" y="545" ></arbalest>
 
 
-
     <bird x="250" y="696" type="red" ></bird>
     <bird x="320" y="696" type="red" ></bird>
     <bird x="400" y="715" type="blue" ></bird>
     <bird x="450" y="715" type="blue" ></bird>
+
 
     <barrier x="800" y="713" type="stone" class="square-01" rotation="0" ></barrier>
     <barrier x="883" y="713" type="stone" class="square-01" rotation="0" ></barrier>
@@ -31,12 +31,12 @@
     <barrier x="883" y="444" type="stone" class="triangle-filled" rotation="0" ></barrier>
     <barrier x="1340" y="444" type="stone" class="triangle-filled" rotation="-90" ></barrier>
 
-    <barrier x="975" y="421" type="wood" class="straight-01" rotation="90" ></barrier>
-    <barrier x="1122" y="421" type="wood" class="straight-01" rotation="90" ></barrier>
+    <barrier x="975" y="411" type="wood" class="straight-01" rotation="90" ></barrier>
+    <barrier x="1122" y="411" type="wood" class="straight-01" rotation="90" ></barrier>
     <barrier x="1068" y="299" type="wood" class="straight-02" rotation="0" ></barrier>
 
-    <barrier x="975" y="196" type="wood" class="straight-01" rotation="90" ></barrier>
-    <barrier x="1122" y="196" type="wood" class="straight-01" rotation="90" ></barrier>
+    <barrier x="975" y="186" type="wood" class="straight-01" rotation="90" ></barrier>
+    <barrier x="1122" y="186" type="wood" class="straight-01" rotation="90" ></barrier>
     <barrier x="1110" y="279" type="ice" class="straight-03" rotation="0" ></barrier>
     <barrier x="1110" y="259" type="wood" class="straight-03" rotation="0" ></barrier>
     <barrier x="1110" y="239" type="ice" class="straight-03" rotation="0" ></barrier>
@@ -55,5 +55,5 @@
     <pig x="1240" y="446" type="normal" rotation="0" ></pig>
 
   <!--   <pig x="1480" y="441" type="king" rotation="0" ></pig> -->
-    <next-level worldId="2" stageId="1" levelId="3" ></next-level>
+    <next-level worldId="2" stageId="1" levelId="7" ></next-level>
 </level>
