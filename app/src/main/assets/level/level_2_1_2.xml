@@ -87,7 +87,7 @@
     <!-- THANH WOOD SQUARE_03 DUNG-->
     <barrier x="793" y="530" type="wood" class="square-03" rotation="0" ></barrier>
     <!--Con PIG-->
-    <pig x="527" y="700" type="small" rotation="0" ></pig>
+    <pig x="1121" y="306" type="old" rotation="0" ></pig>
   <!--   <pig x="1480" y="441" type="king" rotation="0" ></pig> -->
     <next-level worldId="2" stageId="1" levelId="3" ></next-level>
 </level>
