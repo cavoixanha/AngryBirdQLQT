@@ -48,7 +48,7 @@
     <barrier x="1441" y="119" type="ice" class="TRIANGLE-HOLLOW" rotation="0" ></barrier>
 
     <pig x="1035" y="673" type="normal" rotation="0" ></pig>
-    <pig x="1241" y="656" type="OLD" rotation="0" ></pig>
+    <pig x="1231" y="656" type="OLD" rotation="0" ></pig>
     <pig x="1443" y="673" type="normal" rotation="0" ></pig>
 
     <pig x="1059" y="490" type="small" rotation="0" ></pig>
