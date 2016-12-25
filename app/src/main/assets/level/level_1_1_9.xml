@@ -62,7 +62,7 @@
     <barrier x="1354" y="195" type="wood" class="square-02" rotation="0" ></barrier>
 
     <!-- pig -->
-    <pig x="987" y="498" type="normal" rotation="0" ></pig>
+    <pig x="987" y="572" type="normal" rotation="0" ></pig>
     <pig x="1230" y="530" type="helmet" rotation="0" ></pig>
     <pig x="1400" y="530" type="helmet" rotation="0" ></pig>
 
