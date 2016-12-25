@@ -77,5 +77,5 @@
     <barrier x="1521" y="713" type="wood" class="square-02" rotation="0" ></barrier>
     <!--dãy 4-->
 
-    <next-level worldId="2" stageId="1" levelId="1" ></next-level>
+    <next-level worldId="2" stageId="1" levelId="8" ></next-level>
 </level>

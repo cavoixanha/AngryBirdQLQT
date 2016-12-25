@@ -73,5 +73,5 @@
     <barrier x="838" y="410" type="wood" class="triangle-filled" rotation="-90" ></barrier>
 
     <!--   <pig x="1480" y="441" type="king" rotation="0" ></pig> -->
-    <next-level worldId="2" stageId="1" levelId="4" ></next-level>
+    <next-level worldId="2" stageId="1" levelId="5" ></next-level>
 </level>

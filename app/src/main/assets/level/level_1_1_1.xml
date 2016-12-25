@@ -57,5 +57,5 @@
 
     <!--Con Pig-->
     <pig x="1358" y="561" type="old" rotation="0" ></pig>
-    <next-level worldId="2" stageId="1" levelId="1" ></next-level>
+    <next-level worldId="2" stageId="1" levelId="2" ></next-level>
 </level>

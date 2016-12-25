@@ -69,5 +69,5 @@
     <pig x="1250" y="390" type="small" rotation="0" ></pig>
     <pig x="1460" y="390" type="small" rotation="0" ></pig>
     <pig x="1300" y="210" type="small" rotation="0" ></pig>
-    <next-level worldId="1" stageId="1" levelId="5" ></next-level>
+    <next-level worldId="1" stageId="1" levelId="10" ></next-level>
 </level>
