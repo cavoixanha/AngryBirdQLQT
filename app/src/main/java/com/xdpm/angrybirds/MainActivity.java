@@ -72,7 +72,6 @@ public class MainActivity extends BaseGameActivity {
 	        	  mEngine.unregisterUpdateHandler(pTimerHandler);
 	              ResourceManager.getInstance().loadTitleMenuResource();
 		          ResourceManager.getInstance().loadGameResources();
-		          ResourceManager.getInstance().loadBackgroundResource(Settings.getInstance().getLastestWorldId());
 		          SceneManager.getInstance().showMainMenuScene();
               }
 		}));

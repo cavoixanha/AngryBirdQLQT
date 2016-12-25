@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <level>
     <arbalest x="200" y="545" ></arbalest>
-    <bird x="250" y="710" type="red" ></bird>
-    <bird x="320" y="710" type="red" ></bird>
-    <bird x="400" y="725" type="blue" ></bird>
-    <bird x="450" y="725" type="blue" ></bird>
+    <bird x="300" y="696" type="red" ></bird>
+    <bird x="100" y="656" type="black" ></bird>
+    <bird x="350" y="646" type="white" ></bird>
+    <bird x="450" y="696" type="blue" ></bird>
 
     <barrier x="630" y="707" type="ice" class="circle-small" rotation="0" ></barrier>
     <barrier x="680" y="671" type="ice" class="square-hollow" rotation="0" ></barrier>
@@ -79,5 +79,10 @@
 
 
     <pig x="815" y="675" type="normal" rotation="0" ></pig>
+    <pig x="1032" y="675" type="normal" rotation="0" ></pig>
+    <pig x="1245" y="706" type="helmet" rotation="0" ></pig>
+    <pig x="1245" y="496" type="small" rotation="0" ></pig>
+    <pig x="765" y="496" type="small" rotation="0" ></pig>
+
     <next-level worldId="1" stageId="1" levelId="8" ></next-level>
 </level>

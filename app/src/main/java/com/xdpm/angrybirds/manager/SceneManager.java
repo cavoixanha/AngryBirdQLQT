@@ -86,6 +86,7 @@ public class SceneManager {
 	}
 	
 	public void showMainMenuScene() {
+		ResourceManager.getInstance().loadBackgroundResource(1);
 		this.mScene = Scenes.MAIN_MENU;
 		this.showScene(new MainMenuScene());
 	}

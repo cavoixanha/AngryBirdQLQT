@@ -3,6 +3,7 @@ package com.xdpm.angrybirds.object.button;
 import org.andengine.entity.sprite.Sprite;
 import org.andengine.input.touch.TouchEvent;
 
+import com.xdpm.angrybirds.manager.ResourceManager;
 import com.xdpm.angrybirds.manager.SceneManager;
 import com.xdpm.angrybirds.setting.Settings;
 
@@ -72,7 +73,7 @@ public class LevelSelectorButton extends BaseButton<Sprite>{
 		Settings.getInstance().setWorldId(this.mWorldId);
 		Settings.getInstance().setStagedId(this.mStageId);
 		Settings.getInstance().setLevelId(this.mLevelId);
-		
+		ResourceManager.getInstance().loadBackgroundResource(this.mWorldId);
 		SceneManager.getInstance().showMainGameScene();
 	}
 
