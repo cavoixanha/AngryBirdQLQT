@@ -201,12 +201,12 @@ public class ResourceManager {
 		try {
 			
 			this.mAngryBirdTextTextureRegion = createTextureRegion(this.mBaseGameActivity, 409, 92, "background/ANGRY_BIRDS_TEXT_MENU_BACKGROUNDS.png");
-			this.mGroundParallelTextureRegion = this.createTextureRegion(this.mBaseGameActivity, 346, 206, "background/poachedeggs/GROUND.png", TextureOptions.REPEATING_BILINEAR);
-			this.mLowFrontParallelTextureRegion = this.createTextureRegion(this.mBaseGameActivity, 342, 40, "background/poachedeggs/LOW_FRONT_PARALLEL.png", TextureOptions.REPEATING_BILINEAR);
-			this.mHighFrontParallelTextureRegion = this.createTextureRegion(this.mBaseGameActivity, 442, 76, "background/poachedeggs/HIGH_FRONT_PARALLEL.png", TextureOptions.REPEATING_BILINEAR);
-			this.mLowBehindParallelTextureRegion = this.createTextureRegion(this.mBaseGameActivity, 490, 310, "background/poachedeggs/LOW_BEHIND_PARALLEL.png", TextureOptions.REPEATING_BILINEAR);
-			this.mHighBehindParallelTextureRegion = this.createTextureRegion(this.mBaseGameActivity, 488, 222, "background/poachedeggs/HIGH_BEHIND_PARALLEL.png", TextureOptions.REPEATING_BILINEAR);
-			this.mTopGroundParallelTextureRegion = this.createTextureRegion(this.mBaseGameActivity, 10, 10, "background/poachedeggs/TOP_GROUND_PARALLEL.png", TextureOptions.REPEATING_BILINEAR);
+			this.mGroundParallelTextureRegion = this.createTextureRegion(this.mBaseGameActivity, 346, 206, "background/poachedeggs/GROUND"+pWorldId+".png", TextureOptions.REPEATING_BILINEAR);
+			this.mLowFrontParallelTextureRegion = this.createTextureRegion(this.mBaseGameActivity, 342, 40, "background/poachedeggs/LOW_FRONT_PARALLEL"+pWorldId+".png", TextureOptions.REPEATING_BILINEAR);
+			this.mHighFrontParallelTextureRegion = this.createTextureRegion(this.mBaseGameActivity, 442, 76, "background/poachedeggs/HIGH_FRONT_PARALLEL"+pWorldId+".png", TextureOptions.REPEATING_BILINEAR);
+			this.mLowBehindParallelTextureRegion = this.createTextureRegion(this.mBaseGameActivity, 490, 310, "background/poachedeggs/LOW_BEHIND_PARALLEL"+pWorldId+".png", TextureOptions.REPEATING_BILINEAR);
+			this.mHighBehindParallelTextureRegion = this.createTextureRegion(this.mBaseGameActivity, 488, 222, "background/poachedeggs/HIGH_BEHIND_PARALLEL"+pWorldId+".png", TextureOptions.REPEATING_BILINEAR);
+			this.mTopGroundParallelTextureRegion = this.createTextureRegion(this.mBaseGameActivity, 10, 10, "background/poachedeggs/TOP_GROUND_PARALLEL"+pWorldId+".png", TextureOptions.REPEATING_BILINEAR);
 			
 			return true;
 		} catch (Exception ex) {
@@ -349,7 +349,8 @@ public class ResourceManager {
 			return textureRegion;
 		}
 		catch(Exception ex){
-			Log.e("ResourceManager--createTextureRegion", ex.getMessage());
+			Log.e("ResourceManager", "Can't createTextureRegion");
+			Log.e("ResourceManager", ex.getMessage());
 			return null;
 		}
 	}
@@ -363,7 +364,8 @@ public class ResourceManager {
 			return textureRegion;
 		}
 		catch(Exception ex){
-			Log.e("ResourceManager--createTextureRegion", ex.getMessage());
+			Log.e("ResourceManager", "Can't createTextureRegion");
+			Log.e("ResourceManager", ex.getMessage());
 			return null;
 		}
 	}
