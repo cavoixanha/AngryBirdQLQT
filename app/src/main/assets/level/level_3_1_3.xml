@@ -4,8 +4,9 @@
 
     <bird x="250" y="696" type="red" ></bird>
     <bird x="320" y="696" type="red" ></bird>
-    <bird x="400" y="715" type="blue" ></bird>
-    <bird x="450" y="715" type="blue" ></bird>
+    <bird x="400" y="686" type="yellow" ></bird>
+    <bird x="470" y="715" type="blue" ></bird>
+    <bird x="550" y="666" type="black" ></bird>
 
     <barrier x="704" y="674" type="stone" class="triangle-filled" rotation="0" ></barrier>
     <barrier x="784" y="674" type="stone" class="triangle-filled" rotation="-90" ></barrier>
