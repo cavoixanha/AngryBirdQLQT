@@ -38,5 +38,5 @@
     <!--<pig x="1400" y="465" type="helmet" rotation="0" ></pig>-->
     <!--<pig x="1120" y="475" type="helmet" rotation="0" ></pig>-->
 
-    <next-level worldId="3" stageId="1" levelId="5" ></next-level>
+    <next-level worldId="3" stageId="1" levelId="6" ></next-level>
 </level>
