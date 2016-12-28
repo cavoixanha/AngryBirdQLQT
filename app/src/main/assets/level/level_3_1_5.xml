@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+    <arbalest x="200" y="545" ></arbalest>
+    <bird x="300" y="696" type="yellow" ></bird>
+    <bird x="350" y="696" type="yellow" ></bird>
+    <bird x="500" y="696" type="black" ></bird>
+    <bird x="450" y="696" type="yellow" ></bird>
+
+    //phase 1
+    <barrier x="775" y="713" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="859" y="713" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="775" y="672" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="859" y="672" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="775" y="631" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="859" y="631" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="775" y="590" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="859" y="590" type="stone" class="square-01" rotation="0" ></barrier>
+
+
+    //phase 2
+    <barrier x="1012" y="713" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="1096" y="713" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="1012" y="671" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="1096" y="671" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="1012" y="650" type="stone" class="straight-03" rotation="0" ></barrier>
+    <barrier x="1096" y="650" type="stone" class="straight-03" rotation="0" ></barrier>
+
+    //phase 3
+    <barrier x="1220" y="713" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="1304" y="713" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="1220" y="671" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="1304" y="671" type="stone" class="square-01" rotation="0" ></barrier>
+
+    //phase 4
+    <barrier x="1403" y="713" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="1487" y="713" type="stone" class="square-01" rotation="0" ></barrier>
+    <!-- pig -->
+    <!--<pig x="1400" y="465" type="helmet" rotation="0" ></pig>-->
+    <!--<pig x="1120" y="475" type="helmet" rotation="0" ></pig>-->
+
+    <next-level worldId="3" stageId="1" levelId="5" ></next-level>
+</level>
