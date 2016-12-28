@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <level>
     <arbalest x="200" y="545" ></arbalest>
-    <bird x="250" y="696" type="red" ></bird>
+    <bird x="250" y="696" type="yellow" ></bird>
     <bird x="320" y="696" type="red" ></bird>
     <bird x="400" y="715" type="blue" ></bird>
-    <bird x="450" y="715" type="blue" ></bird>
+    <bird x="450" y="686" type="yellow" ></bird>
+    <bird x="550" y="666" type="black" ></bird>
 
     <barrier x="1200" y="660" type="stone" class="straight-02" rotation="90" ></barrier>
     <barrier x="1350" y="660" type="stone" class="straight-02" rotation="90" ></barrier>
