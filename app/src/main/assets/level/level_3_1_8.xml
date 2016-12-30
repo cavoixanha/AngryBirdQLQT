@@ -45,12 +45,12 @@
 
     <barrier x="719" y="485" type="wood" class="straight-02" rotation="0" ></barrier>
     <barrier x="800" y="430" type="wood" class="straight-01" rotation="90" ></barrier>
-    <barrier x="820" y="318" type="wood" class="straight-02" rotation="0" ></barrier>
-    <barrier x="820" y="230" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="820" y="317" type="wood" class="straight-02" rotation="0" ></barrier>
+    <barrier x="820" y="227" type="wood" class="straight-02" rotation="90" ></barrier>
 
     <barrier x="1028" y="430" type="wood" class="straight-01" rotation="90" ></barrier>
-    <barrier x="1048" y="318" type="wood" class="straight-02" rotation="0" ></barrier>
-    <barrier x="1048" y="230" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1048" y="317" type="wood" class="straight-02" rotation="0" ></barrier>
+    <barrier x="1048" y="227" type="wood" class="straight-02" rotation="90" ></barrier>
     <barrier x="1152" y="504" type="stone" class="square-02" rotation="0" ></barrier>
     <barrier x="1152" y="485" type="wood" class="straight-02" rotation="0" ></barrier>
 
