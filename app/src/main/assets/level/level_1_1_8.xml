@@ -2,117 +2,96 @@
 <level>
     <arbalest x="200" y="545" ></arbalest>
     <bird x="250" y="696" type="red" ></bird>
+    <bird x="240" y="715" type="white" ></bird>
     <bird x="320" y="696" type="red" ></bird>
     <bird x="400" y="715" type="blue" ></bird>
+    <bird x="240" y="715" type="yellow" ></bird>
+    <bird x="290" y="715" type="yellow" ></bird>
 
-    <!-- Tang 1, thanh square dung -->
-    <barrier x="1530" y="690" type="wood" class="square-01" rotation="90" ></barrier>
-    <barrier x="1490" y="690" type="wood" class="square-01" rotation="90" ></barrier>
-    <barrier x="1410" y="690" type="wood" class="square-01" rotation="90" ></barrier>
-    <barrier x="1370" y="690" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="700" y="700" type="stone" class="straight-03" rotation="90" ></barrier>
+    <barrier x="763" y="700" type="stone" class="straight-03" rotation="90" ></barrier>
+    <barrier x="732" y="648" type="stone" class="straight-03" rotation="0" ></barrier>
 
-    <barrier x="1310" y="710" type="wood" class="straight-03" rotation="90" ></barrier>
-    <barrier x="1310" y="650" type="wood" class="straight-03" rotation="0" ></barrier>
+    <!--barrier x="730" y="564" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="730" y="606" type="ice" class="square-01" rotation="90" ></barrier-->
+    <barrier x="700" y="596" type="stone" class="straight-03" rotation="90" ></barrier>
+    <barrier x="724" y="543" type="ice" class="straight-01" rotation="0" ></barrier>
+    <barrier x="730" y="501" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="730" y="460" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="885" y="501" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="885" y="460" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="724" y="440" type="ice" class="straight-01" rotation="0" ></barrier>
+    <barrier x="725" y="357" type="ice" class="triangle-hollow" rotation="0" ></barrier>
+    <barrier x="844" y="357" type="ice" class="triangle-hollow" rotation="0" ></barrier>
 
-    <barrier x="1250" y="690" type="stone" class="square-01" rotation="90" ></barrier>
-    <barrier x="1209" y="690" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="813" y="700" type="wood" class="straight-03" rotation="90" ></barrier>
+    <barrier x="815" y="648" type="wood" class="straight-03" rotation="0" ></barrier>
 
-    <barrier x="1127" y="690" type="stone" class="square-01" rotation="90" ></barrier>
-    <barrier x="1086" y="690" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="825" y="657" type="stone" class="straight-02" rotation="90" ></barrier>
+    <barrier x="887" y="657" type="stone" class="straight-02" rotation="90" ></barrier>
+    <barrier x="898" y="564" type="stone" class="straight-03" rotation="0" ></barrier>
 
-    <barrier x="1023" y="710" type="wood" class="straight-03" rotation="90" ></barrier>
-    <barrier x="1022" y="650" type="wood" class="straight-03" rotation="0" ></barrier>
-    <!-- Vi tri ( 1023 - 205 )818 thi ra vi tri cua thanh straight-01 ngang -->
-    <!-- Tu Vi tri 818 thi ta cong them 102 se ra vi tri cua thanh straight-01 thang -->
-    <!--barrier x="910" y="640" type="stone" class="straight-01" rotation="90" ></barrier>
-    <barrier x="848" y="640" type="stone" class="straight-01" rotation="90" ></barrier-->
-    <!-- Thanh stone straight-03 ngang tang 2 -->
-    <!--barrier x="940" y="530" type="stone" class="straight-03" rotation="0" ></barrier-->
+    <barrier x="936" y="523" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="1062" y="523" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="936" y="502" type="ice" class="straight-02" rotation="0" ></barrier>
+    <barrier x="936" y="461" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="1062" y="461" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="936" y="420" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="1062" y="420" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="936" y="400" type="ice" class="straight-02" rotation="0" ></barrier>
+    <barrier x="943" y="319" type="ice" class="triangle-filled" rotation="-90" ></barrier>
+    <barrier x="1023" y="319" type="ice" class="triangle-filled" rotation="0" ></barrier>
 
-    <!-- Thanh stone straight-02 thang tang 1 -->
-    <!-- Vi tri ( 1023 - 168 )855 thi ra vi tri cua thanh straight-02 ngang -->
-    <!-- Tu Vi tri 855 thi ta cong them 84 se ra vi tri cua thanh straight-02 thang -->
-    <barrier x="939" y="660" type="stone" class="straight-02" rotation="90" ></barrier>
-    <barrier x="905" y="660" type="stone" class="straight-02" rotation="90" ></barrier>
-    <barrier x="872" y="660" type="stone" class="straight-02" rotation="90" ></barrier>
-    <!-- Thanh stone straight-03 ngang tang 2 -->
-    <barrier x="946" y="569" type="stone" class="straight-03" rotation="0" ></barrier>
+    <barrier x="1105" y="544" type="ice" class="straight-03" rotation="0" ></barrier>
+    <barrier x="1190" y="544" type="ice" class="straight-03" rotation="0" ></barrier>
+    <barrier x="1084" y="482" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1205" y="482" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1105" y="419" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="1228" y="419" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="1105" y="378" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="1228" y="378" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="1105" y="358" type="ice" class="straight-02" rotation="0" ></barrier>
+    <barrier x="1105" y="338" type="ice" class="square-02" rotation="90" ></barrier>
+    <barrier x="1248" y="338" type="ice" class="square-02" rotation="90" ></barrier>
 
-    <!-- Thanh wood straight-03 thang tang 1 -->
-    <barrier x="866" y="710" type="wood" class="straight-03" rotation="90" ></barrier>
-    <barrier x="815" y="710" type="stone" class="straight-03" rotation="90" ></barrier>
-    <barrier x="753" y="710" type="stone" class="straight-03" rotation="90" ></barrier>
-    <!-- Thanh wood straight-03 ngang tang 2 -->
-    <barrier x="870" y="650" type="wood" class="straight-03" rotation="0" ></barrier>
-    <barrier x="785" y="650" type="stone" class="straight-03" rotation="0" ></barrier>
+    <barrier x="979" y="700" type="wood" class="straight-03" rotation="90" ></barrier>
+    <barrier x="982" y="648" type="wood" class="straight-03" rotation="0" ></barrier>
 
-    <!-- Thanh wood square_hollow tang 2 -->
-    <barrier x="1510" y="590" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <barrier x="1394" y="590" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <barrier x="1227" y="590" type="stone" class="square-hollow" rotation="0" ></barrier>
-    <barrier x="1105" y="590" type="stone" class="square-hollow" rotation="0" ></barrier>
-    <!-- Thanh ice square tang 2 -->
-    <barrier x="785" y="610" type="ice" class="square-01" rotation="0" ></barrier>
-    <barrier x="785" y="570" type="ice" class="square-01" rotation="0" ></barrier>
-    <!-- Thanh wood triangle-filled tang cuoi -->
-    <barrier x="1510" y="508" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <barrier x="1394" y="508" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <barrier x="1510" y="426" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <barrier x="1394" y="426" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <barrier x="1394" y="405" type="wood" class="straight-01" rotation="0" ></barrier>
-    <!-- Thanh wood square_hollow tang 3 -->
-    <barrier x="1414" y="325" type="wood" class="triangle-filled" rotation="-90" ></barrier>
-    <barrier x="1490" y="325" type="wood" class="triangle-filled" rotation="0" ></barrier>
-    <!--barrier x="1227" y="508" type="stone" class="square-hollow" rotation="0" ></barrier-->
-    <!--barrier x="1105" y="508" type="stone" class="square-hollow" rotation="0" ></barrier-->
-    <!-- Thanh wood straight ngang tang 3 -->
-    <barrier x="1105" y="569" type="stone" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1042" y="690" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1084" y="690" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1066" y="586" type="stone" class="square-hollow" rotation="90" ></barrier>
 
-    <!-- Thanh ice straight & square ngang tang 4 -->
-    <barrier x="1105" y="528" type="ice" class="square-01" rotation="0" ></barrier>
-    <barrier x="1146" y="548" type="ice" class="straight-03" rotation="0" ></barrier>
-    <barrier x="1146" y="527" type="ice" class="straight-03" rotation="0" ></barrier>
-    <barrier x="1229" y="548" type="ice" class="straight-03" rotation="0" ></barrier>
-    <barrier x="1229" y="527" type="ice" class="straight-03" rotation="0" ></barrier>
-    <!-- Thanh ice square tang 4 -->
-    <barrier x="985" y="528" type="ice" class="square-01" rotation="0" ></barrier>
-    <!-- Thanh ice straight ngang tang 4 -->
-    <barrier x="785" y="569" type="ice" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1168" y="690" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1210" y="690" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1186" y="586" type="stone" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="1061" y="566" type="stone" class="straight-01" rotation="0" ></barrier>
 
-    <!-- Thanh wood square_01 thang tang 5 -->
-    <barrier x="1250" y="486" type="wood" class="square-01" rotation="90" ></barrier>
-    <barrier x="1124" y="486" type="wood" class="square-01" rotation="90" ></barrier>
-    <!---  Thanh ice square_02  tang 5 -->
-    <barrier x="1271" y="445" type="ice" class="square-01" rotation="90" ></barrier>
-    <barrier x="1153" y="445" type="ice" class="square-01" rotation="90" ></barrier>
-    <barrier x="1271" y="405" type="ice" class="square-01" rotation="90" ></barrier>
-    <barrier x="1153" y="405" type="ice" class="square-01" rotation="90" ></barrier>
+    <barrier x="1267" y="700" type="wood" class="straight-03" rotation="90" ></barrier>
+    <barrier x="1270" y="648" type="wood" class="straight-03" rotation="0" ></barrier>
 
-    <barrier x="1150" y="385" type="ice" class="straight-02" rotation="0" ></barrier>
-    <!-- Thanh ice straight_02  & square_01 ngang tang 5 -->
-    <barrier x="981" y="507" type="ice" class="straight-02" rotation="0" ></barrier>
-    <barrier x="985" y="467" type="ice" class="square-01" rotation="90" ></barrier>
-    <barrier x="1103" y="467" type="ice" class="square-01" rotation="90" ></barrier>
-    <barrier x="985" y="426" type="ice" class="square-01" rotation="90" ></barrier>
-    <barrier x="1103" y="426" type="ice" class="square-01" rotation="90" ></barrier>
-    <barrier x="981" y="405" type="ice" class="straight-02" rotation="0" ></barrier>
-    <!-- Thanh wood square_hollow tang 3 -->
-    <barrier x="985" y="325" type="ice" class="triangle-filled" rotation="-90" ></barrier>
-    <barrier x="1065" y="325" type="ice" class="triangle-filled" rotation="0" ></barrier>
+    <barrier x="1337" y="690" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1379" y="690" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1358" y="586" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="1358" y="504" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="1358" y="422" type="wood" class="square-hollow" rotation="0" ></barrier>
 
-    <!-- Thanh ice square phan cuoi -->
-    <!-- Thanh ice square tang cuoi -->
-    <barrier x="785" y="513" type="ice" class="square-01" rotation="0" ></barrier>
-    <barrier x="785" y="554" type="ice" class="square-01" rotation="0" ></barrier>
-    <barrier x="945" y="513" type="ice" class="square-01" rotation="90" ></barrier>
-    <barrier x="945" y="554" type="ice" class="square-01" rotation="90" ></barrier>
-    <!-- Thanh ice straight tang cuoi -->
-    <barrier x="787" y="493" type="ice" class="straight-01" rotation="0" ></barrier>
-    <barrier x="860" y="411" type="ice" class="triangle-hollow" rotation="0" ></barrier>
-    <!--Con Pig-->
-    <pig x="440" y="690" type="normal" rotation="0" ></pig>
-    <!--pig x="1215" y="470" type="normal" rotation="0" ></pig>
-    <pig x="1345" y="470" type="normal" rotation="0" ></pig-->
+    <barrier x="1455" y="690" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1497" y="690" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1475" y="586" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="1475" y="504" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="1475" y="422" type="wood" class="square-hollow" rotation="0" ></barrier>
 
+    <barrier x="1358" y="401" type="wood" class="straight-01" rotation="0" ></barrier>
+
+    <barrier x="1378" y="319" type="wood" class="triangle-filled" rotation="-90" ></barrier>
+    <barrier x="1459" y="319" type="wood" class="triangle-filled" rotation="0" ></barrier>
+
+    <!--Con PIG-->
+    <pig x="800" y="564" type="helmet" rotation="0" ></pig>
+    <pig x="800" y="470" type="normal" rotation="0" ></pig>
+    <pig x="997" y="460" type="small" rotation="0" ></pig>
+    <pig x="997" y="608" type="small" rotation="0" ></pig>
+    <pig x="1285" y="608" type="small" rotation="0" ></pig>
     <next-level worldId="1" stageId="1" levelId="9" ></next-level>
+
 </level>
