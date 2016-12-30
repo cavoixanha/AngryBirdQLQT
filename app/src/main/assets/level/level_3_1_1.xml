@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <level>
     <arbalest x="200" y="545" ></arbalest>
-    <bird x="300" y="696" type="red" ></bird>
-    <bird x="350" y="696" type="blue" ></bird>
+    <bird x="100" y="696" type="yellow" ></bird>
+    <bird x="150" y="696" type="yellow" ></bird>
+    <bird x="250" y="656" type="black" ></bird>
 
     <!-- trai -->
     <barrier x="645" y="670" type="wood" class="straight-02" rotation="90" ></barrier>
