@@ -2,10 +2,9 @@
 <level>
     <arbalest x="200" y="545" ></arbalest>
     <bird x="300" y="696" type="yellow" ></bird>
-    <bird x="350" y="696" type="yellow" ></bird>
     <bird x="500" y="696" type="black" ></bird>
-    <bird x="450" y="696" type="yellow" ></bird>
-
+    <bird x="350" y="696" type="yellow" ></bird>
+    <bird x="450" y="696" type="black" ></bird>
     //phase 1
     //part 1 - 1
     <barrier x="775" y="713" type="stone" class="square-01" rotation="0" ></barrier>
@@ -29,6 +28,8 @@
     <barrier x="897" y="382" type="ice" class="square-02" rotation="0" ></barrier>
     <barrier x="944" y="426" type="wood" class="circle-small" rotation="0" ></barrier>
 
+    <pig x="820" y="540" type="small" rotation="0" ></pig>
+    <pig x="817" y="348" type="normal" rotation="0" ></pig>
     //phase 2
     //part 2 -1
     <barrier x="1012" y="713" type="stone" class="square-01" rotation="0" ></barrier>
@@ -44,7 +45,8 @@
     <barrier x="1137.5" y="547" type="wood" class="straight-04" rotation="0" ></barrier>
     <barrier x="1137.5" y="527" type="ice" class="straight-02" rotation="0" ></barrier>
 
-
+    <pig x="1055" y="600" type="small" rotation="0" ></pig>
+    <pig x="1142.5" y="447" type="normal" rotation="0" ></pig>
     //phase 3
     //part 3-1
     <barrier x="1220" y="713" type="stone" class="square-01" rotation="0" ></barrier>
@@ -72,15 +74,14 @@
     <barrier x="1513" y="567" type="wood" class="square-01" rotation="90" ></barrier>
     <barrier x="1407" y="525" type="wood" class="straight-02" rotation="0" ></barrier>
     //part 4 -2
+    <pig x="1307" y="623" type="small" rotation="0" ></pig>
+    <pig x="1485" y="340" type="normal" rotation="0" ></pig>
     <barrier x="1452" y="484" type="wood" class="circle-small" rotation="0" ></barrier>
     <barrier x="1474" y="461" type="wood" class="square-01" rotation="90" ></barrier>
     <barrier x="1512" y="461" type="wood" class="square-01" rotation="90" ></barrier>
     <barrier x="1489" y="422" type="wood" class="straight-03" rotation="0" ></barrier>
 
 
-    <!-- pig -->
-    <!--<pig x="1400" y="465" type="helmet" rotation="0" ></pig>-->
-    <!--<pig x="1120" y="475" type="helmet" rotation="0" ></pig>-->
 
     <next-level worldId="3" stageId="1" levelId="5" ></next-level>
 </level>

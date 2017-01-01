@@ -19,10 +19,10 @@
     <barrier x="807.5" y="589" type="ice" class="square-01" rotation="0" ></barrier>
     <barrier x="807.5" y="548" type="ice" class="square-01" rotation="0" ></barrier>
     //part 1 -3
-    <barrier x="788" y="527" type="ice" class="straight-03" rotation="0" ></barrier>
-    <barrier x="788" y="507" type="ice" class="straight-03" rotation="0" ></barrier>
-    <!--<barrier x="788" y="487" type="ice" class="straight-03" rotation="0" ></barrier>-->
-    <!--<barrier x="788" y="467" type="ice" class="straight-03" rotation="0" ></barrier>-->
+    <barrier x="787" y="527" type="ice" class="straight-03" rotation="0" ></barrier>
+    <barrier x="787" y="507" type="ice" class="straight-03" rotation="0" ></barrier>
+    <barrier x="787" y="487" type="ice" class="straight-03" rotation="0" ></barrier>
+    <barrier x="787" y="467" type="ice" class="straight-03" rotation="0" ></barrier>
 
     <barrier x="724" y="486" type="wood" class="square-01" rotation="90" ></barrier>
     <barrier x="849" y="486" type="stone" class="square-01" rotation="90" ></barrier>
@@ -40,6 +40,7 @@
 
     <barrier x="785" y="216" type="ice" class="triangle-hollow" rotation="0" ></barrier>
 
+    <pig x="805" y="360" type="normal" rotation="0" ></pig>
     //phase 2
     //part 2 - 1
     <barrier x="1065" y="734" type="stone" class="straight-02" rotation="0" ></barrier>
@@ -48,7 +49,7 @@
     <barrier x="1128.5" y="693" type="ice" class="square-01" rotation="0" ></barrier>
     <barrier x="1128.5" y="652" type="ice" class="square-01" rotation="0" ></barrier>
 
-    <barrier x="1044" y="589" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1043" y="589" type="wood" class="square-01" rotation="90" ></barrier>
     <barrier x="1173" y="589" type="stone" class="square-01" rotation="90" ></barrier>
 
     <!--<barrier x="1108" y="632" type="wood" class="straight-03" rotation="0" ></barrier>-->
@@ -58,7 +59,7 @@
 
     <barrier x="1065" y="548" type="ice" class="straight-02" rotation="0" ></barrier>
     //part 2 - 2
-    <barrier x="1044" y="489" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1043" y="489" type="wood" class="square-01" rotation="90" ></barrier>
     <barrier x="1173" y="489" type="wood" class="square-01" rotation="90" ></barrier>
     <barrier x="1065" y="445" type="ice" class="straight-02" rotation="0" ></barrier>
 
@@ -68,6 +69,7 @@
 
     <barrier x="1106" y="320" type="wood" class="triangle-hollow" rotation="0" ></barrier>
 
+    <!--<pig x="1177" y="462" type="normal" rotation="0" ></pig>-->
     //phase 3
     <barrier x="1375" y="714" type="stone" class="square-01" rotation="0" ></barrier>
     <barrier x="1459" y="714" type="stone" class="square-01" rotation="0" ></barrier>
