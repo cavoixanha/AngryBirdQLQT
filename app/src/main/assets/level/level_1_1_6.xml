@@ -2,9 +2,11 @@
 <level>
     <arbalest x="200" y="545" ></arbalest>
     <bird x="300" y="696" type="red" ></bird>
-    <bird x="100" y="676" type="yellow" ></bird>
-    <bird x="350" y="676" type="yellow" ></bird>
-    <bird x="450" y="696" type="blue" ></bird>
+    <bird x="100" y="676" type="blue" ></bird>
+    <bird x="150" y="656" type="black" ></bird>
+    <bird x="300" y="676" type="red" ></bird>
+    <bird x="350" y="656" type="black" ></bird>
+    <bird x="415" y="696" type="blue" ></bird>
 
     <barrier x="675" y="671" type="ice" class="square-hollow" rotation="0" ></barrier>
     <barrier x="675" y="588" type="ice" class="square-hollow" rotation="0" ></barrier>
@@ -58,17 +60,19 @@
     <barrier x="1151" y="185" type="wood" class="straight-01" rotation="0" ></barrier>
     <barrier x="1151" y="285" type="wood" class="straight-01" rotation="41" ></barrier>
 
-    <pig x="845" y="706" type="helmet" rotation="0" ></pig>
     <pig x="1058" y="705" type="small" rotation="0" ></pig>
     <pig x="1188" y="705" type="small" rotation="0" ></pig>
-    <pig x="1390" y="487" type="normal" rotation="0" ></pig>
+
 
     <pig x="1058" y="516" type="small" rotation="0" ></pig>
     <pig x="1188" y="516" type="small" rotation="0" ></pig>
     <pig x="1058" y="326" type="small" rotation="0" ></pig>
     <pig x="1188" y="326" type="small" rotation="0" ></pig>
+    <!--
+    <pig x="1390" y="487" type="normal" rotation="0" ></pig>
+    <pig x="845" y="706" type="helmet" rotation="0" ></pig>
     <pig x="1058" y="136" type="small" rotation="0" ></pig>
-    <pig x="1188" y="136" type="small" rotation="0" ></pig>
+    <pig x="1188" y="136" type="small" rotation="0" ></pig>-->
 
     <next-level worldId="1" stageId="1" levelId="7" ></next-level>
 </level>
