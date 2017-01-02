@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+    <arbalest x="200" y="545" ></arbalest>
+    <bird x="185" y="696" type="black" ></bird>
+    <bird x="185" y="724" type="yellow" ></bird>
+    <bird x="125" y="696" type="balck" ></bird>
+    <bird x="65" y="696" type="yellow" ></bird>
+    <bird x="45" y="724" type="red" ></bird>
+
+    <!--cột 1-->
+    <!--hang 1-->
+    <barrier x="792" y="713" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="833" y="713" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="875" y="713" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="916" y="713" type="stone" class="square-01" rotation="90" ></barrier>
+
+    <pig x="996" y="726" type="small" rotation="0" ></pig>
+
+    <barrier x="1035" y="713" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1076" y="713" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1118" y="713" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1159" y="713" type="stone" class="square-01" rotation="90" ></barrier>
+    <!--hang 1-->
+
+    <!--hang 2-->
+    <barrier x="813" y="652" type="stone" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1015" y="652" type="stone" class="straight-01" rotation="0" ></barrier>
+    <!--hang 2-->
+
+    <!--hang 3-->
+    <barrier x="812" y="632" type="stone" class="square-03" rotation="0" ></barrier>
+    <barrier x="780" y="580" type="stone" class="straight-03" rotation="90" ></barrier>
+    <barrier x="813" y="589" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="854" y="589" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="833" y="490" type="stone" class="square-hollow" rotation="0" ></barrier>
+
+    <!--<pig x="966" y="613" type="normal" rotation="0" ></pig>-->
+    <!--<pig x="966" y="498" type="king" rotation="0" ></pig>-->
+    <!--<pig x="960" y="504" type="king" rotation="0" ></pig>-->
+    <pig x="960" y="598" type="old" rotation="0" ></pig>
+
+    <barrier x="1117" y="490" type="stone" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="1097" y="589" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1139" y="589" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1168" y="580" type="stone" class="straight-03" rotation="90" ></barrier>
+    <barrier x="1200" y="632" type="stone" class="square-03" rotation="0" ></barrier>
+    <!--hang 3-->
+
+    <!--hang 4-->
+    <barrier x="833" y="466" type="stone" class="straight-02" rotation="0" ></barrier> <!--470-->
+    <barrier x="995" y="466" type="stone" class="straight-01" rotation="0" ></barrier> <!--470-->
+
+    <barrier x="833" y="386" type="stone" class="square-hollow" rotation="0" ></barrier> <!--388--> <!--380-->
+    <barrier x="1119" y="386" type="stone" class="square-hollow" rotation="0" ></barrier><!--388--> <!--380-->
+
+
+    <barrier x="915" y="380" type="wood" class="triangle-filled" rotation="270" ></barrier> <!--x = 918-->
+    <!--<barrier x="853" y="320" type="wood" class="triangle-filled" rotation="180" ></barrier>-->
+    <barrier x="1004" y="442" type="ice" class="straight-04" rotation="0" ></barrier>
+    <barrier x="1004" y="422" type="ice" class="straight-04" rotation="0" ></barrier>
+    <barrier x="1004" y="402" type="ice" class="straight-04" rotation="0" ></barrier>
+    <barrier x="1004" y="382" type="ice" class="straight-04" rotation="0" ></barrier>
+
+    <barrier x="1042" y="380" type="wood" class="triangle-filled" rotation="0" ></barrier>
+
+
+    <barrier x="1074" y="370" type="stone" class="straight-02" rotation="0" ></barrier>
+    <barrier x="787" y="370" type="stone" class="straight-02" rotation="0" ></barrier>
+
+    <barrier x="833" y="281" type="stone" class="triangle-hollow" rotation="0" ></barrier> <!--320-->
+    <barrier x="1114" y="281" type="stone" class="triangle-hollow" rotation="0" ></barrier> <!--320-->
+
+
+    <barrier x="788" y="349" type="stone" class="square-03" rotation="0" ></barrier>
+    <barrier x="934" y="349" type="stone" class="square-03" rotation="0" ></barrier>
+
+    <barrier x="1074" y="349" type="stone" class="square-03" rotation="0" ></barrier>
+    <barrier x="1220" y="320" type="stone" class="square-03" rotation="0" ></barrier>
+    <!--hang 4-->
+
+    <next-level worldId="3" stageId="1" levelId="8" ></next-level>
+</level>
