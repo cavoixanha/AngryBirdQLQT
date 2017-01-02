@@ -22,7 +22,7 @@
 
     //phase stone
     <barrier x="1171" y="703" type="stone" class="square-01" rotation="90" ></barrier>
-    <barrier x="1212" y="703" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1213" y="703" type="stone" class="square-01" rotation="90" ></barrier>
     <barrier x="1191" y="630" type="stone" class="square-01" rotation="0" ></barrier>
 
     <barrier x="1298" y="703" type="stone" class="square-01" rotation="90" ></barrier>
@@ -30,7 +30,7 @@
     <barrier x="1318" y="630" type="stone" class="square-01" rotation="0" ></barrier>
 
     <barrier x="1425" y="703" type="stone" class="square-01" rotation="90" ></barrier>
-    <barrier x="1466" y="703" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1467" y="703" type="stone" class="square-01" rotation="90" ></barrier>
     <barrier x="1445" y="630" type="stone" class="square-01" rotation="0" ></barrier>
 
     <!-- pig -->
