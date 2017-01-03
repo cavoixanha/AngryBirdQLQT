@@ -68,5 +68,5 @@
     <barrier x="1440" y="483" type="ice" class="straight-03" rotation="0" ></barrier>
     <barrier x="1348" y="462" type="ice" class="straight-02" rotation="0" ></barrier>
 
-    <next-level worldId="3" stageId="1" levelId="7" ></next-level>
+    <next-level worldId="3" stageId="1" levelId="1" ></next-level>
 </level>
