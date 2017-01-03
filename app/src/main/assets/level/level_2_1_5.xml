@@ -3,8 +3,7 @@
     <arbalest x="200" y="545" ></arbalest>
     <bird x="300" y="696" type="yellow" ></bird>
     <bird x="350" y="696" type="yellow" ></bird>
-    <bird x="500" y="696" type="black" ></bird>
-    <bird x="450" y="696" type="yellow" ></bird>
+    <bird x="400" y="696" type="yellow" ></bird>
 
     //phase 1
     <barrier x="807" y="671" type="stone" class="square-hollow" rotation="0" ></barrier>

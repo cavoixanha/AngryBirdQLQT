@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+    <arbalest x="200" y="545" ></arbalest>
+    <bird x="185" y="696" type="red" ></bird>
+    <bird x="185" y="724" type="yellow" ></bird>
+    <bird x="125" y="696" type="blue" ></bird>
+    <bird x="65" y="696" type="yellow" ></bird>
+    <bird x="45" y="724" type="red" ></bird>
+
+    <!--cột 1-->
+    <!--xoay + do height cua cai tiep theo-->
+    <barrier x="743" y="672" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="825" y="672" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="907" y="672" type="wood" class="square-hollow" rotation="0" ></barrier>
+
+    <!--tang 2-->
+    <barrier x="670" y="580" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="782" y="580" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="790" y="580" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="894" y="580" type="wood" class="straight-02" rotation="90" ></barrier>
+    <!--tang 2-->
+
+    <!--tang 3-->
+    <barrier x="700" y="483" type="wood" class="straight-02" rotation="0" ></barrier>
+    <barrier x="868" y="483" type="wood" class="straight-02" rotation="0" ></barrier>
+    <!--tang 3-->
+
+    <!--tang 4-->
+    <barrier x="743" y="401" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="907" y="401" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <!--tang 4-->
+
+    <!--tang 5-->
+    <barrier x="666" y="381" type="wood" class="straight-02" rotation="0" ></barrier>
+    <barrier x="907" y="381" type="wood" class="straight-02" rotation="0" ></barrier>
+    <!--tang 5-->
+
+    <!--tang 6-->
+    <barrier x="784" y="361" type="wood" class="straight-01" rotation="0" ></barrier>
+    <!--tang 6-->
+
+    <!--tang 7-->
+    <barrier x="907" y="279" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <!--tang 7-->
+
+    <!--Con Pig-->
+    <pig x="825" y="285" type="normal" rotation="0" ></pig>
+    <!--cột 1-->
+
+
+    <!--cột 2-->
+    <!--tang 1-->
+    <barrier x="1090" y="712" type="wood" class="straight-03" rotation="90" ></barrier>
+    <barrier x="1272" y="712" type="wood" class="straight-03" rotation="90" ></barrier>
+    <barrier x="1119" y="651" type="wood" class="straight-01" rotation="0" ></barrier>
+
+    <barrier x="1302" y="712" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1322" y="651" type="wood" class="straight-04" rotation="0" ></barrier>
+
+    <barrier x="1332" y="712" type="wood" class="straight-03" rotation="90" ></barrier>
+    <barrier x="1515" y="712" type="wood" class="straight-03" rotation="90" ></barrier>
+    <barrier x="1361" y="651" type="wood" class="straight-01" rotation="0" ></barrier>
+
+    <!--tang 3-->
+    <barrier x="1120" y="554" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1386" y="554" type="wood" class="straight-02" rotation="90" ></barrier>
+
+    <barrier x="1214" y="568" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="1296" y="568" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="1378" y="568" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <!--tang 3-->
+
+    <!--tang 4-->
+    <barrier x="1141" y="486" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1253" y="486" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1261" y="486" type="wood" class="straight-02" rotation="90" ></barrier>
+    <barrier x="1365" y="486" type="wood" class="straight-02" rotation="90" ></barrier>
+    <!--tang 4-->
+
+    <!--tang 5-->
+    <barrier x="1171" y="389" type="wood" class="straight-02" rotation="0" ></barrier>
+    <barrier x="1339" y="389" type="wood" class="straight-02" rotation="0" ></barrier>
+    <!--tang 5-->
+
+    <!--tang 6-->
+    <barrier x="1214" y="307" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="1378" y="307" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <!--tang 6-->
+
+    <!--tang 7-->
+    <barrier x="1137" y="287" type="wood" class="straight-02" rotation="0" ></barrier>
+    <barrier x="1378" y="287" type="wood" class="straight-02" rotation="0" ></barrier>
+    <!--tang 7-->
+
+    <!--tang 8-->
+    <barrier x="1255" y="267" type="wood" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1173" y="205" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <!--tang 8-->
+
+    <barrier x="1258" y="226" type="ice" class="triangle-hollow" rotation="0" ></barrier>
+
+    <pig x="1340" y="171" type="old" rotation="0" ></pig>
+    <barrier x="1458" y="246" type="wood" class="straight-04" rotation="90" ></barrier>
+    <!--cot 2-->
+
+    <next-level worldId="2" stageId="0" levelId="0" ></next-level>
+</level>

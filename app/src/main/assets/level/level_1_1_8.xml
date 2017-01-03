@@ -92,6 +92,10 @@
     <pig x="997" y="460" type="small" rotation="0" ></pig>
     <pig x="997" y="608" type="small" rotation="0" ></pig>
     <pig x="1285" y="608" type="small" rotation="0" ></pig>
+<<<<<<< HEAD
     <next-level worldId="1" stageId="1" levelId="9" ></next-level>
 
+=======
+    <next-level worldId="1" stageId="1" levelId="8" ></next-level>
+>>>>>>> 946e57500d6abb87df50ef43d368ea1f554b97e9
 </level>

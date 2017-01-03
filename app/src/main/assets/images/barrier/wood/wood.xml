@@ -10,7 +10,7 @@
     <textureregion id="5" src="SQUARE_WOOD_03.png" x="2" y="2" width="84" height="20" rotated="true" trimmed="false" srcx="0" srcy="0" srcwidth="84" srcheight="20"/>
     <textureregion id="6" src="SQUARE_WOOD_HOLLOW.png" x="354" y="2" width="328" height="82" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="328" srcheight="82"/>
     <textureregion id="7" src="STRAIGHT_WOOD_01.png" x="684" y="84" width="820" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="820" srcheight="20"/>
-    <textureregion id="8" src="STRAIGHT_WOOD_02.png" x="1308" y="2" width="672" height="21" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="672" srcheight="21"/>
+    <textureregion id="8" src="STRAIGHT_WOOD_02.png" x="1308" y="3" width="672" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="672" srcheight="20"/>
     <textureregion id="9" src="STRAIGHT_WOOD_03.png" x="1506" y="68" width="332" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="332" srcheight="20"/>
     <textureregion id="10" src="STRAIGHT_WOOD_04.png" x="1840" y="67" width="164" height="20" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="164" srcheight="20"/>
     <textureregion id="11" src="TRIANGLE_WOOD_FILLED.png" x="684" y="2" width="320" height="80" rotated="false" trimmed="false" srcx="0" srcy="0" srcwidth="320" srcheight="80"/>
