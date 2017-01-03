@@ -56,11 +56,11 @@
     <barrier x="1249" y="431" type="stone" class="straight-03" rotation="90" ></barrier>
     <barrier x="1280" y="421" type="wood" class="square-01" rotation="90" ></barrier>
 
-    <barrier x="1093" y="337" type="stone" class="square-01" rotation="90" ></barrier>
-    <barrier x="1135" y="337" type="wood" class="square-01" rotation="90" ></barrier>
-    <barrier x="1177" y="337" type="stone" class="square-01" rotation="90" ></barrier>
-    <barrier x="1219" y="337" type="wood" class="square-01" rotation="90" ></barrier>
-    <barrier x="1260" y="337" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1096" y="337" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1138" y="337" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1179" y="337" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1220" y="337" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1262" y="337" type="stone" class="square-01" rotation="90" ></barrier>
 
     <barrier x="1440" y="690" type="stone" class="square-01" rotation="90" ></barrier>
     <barrier x="1440" y="608" type="wood" class="square-01" rotation="90" ></barrier>
@@ -68,5 +68,8 @@
     <barrier x="1440" y="483" type="ice" class="straight-03" rotation="0" ></barrier>
     <barrier x="1348" y="462" type="ice" class="straight-02" rotation="0" ></barrier>
 
+    <!--barrier x="1130" y="275" type="wood" class="triangle-filled" rotation="135" ></barrier-->
+    <!--barrier x="1182" y="217" type="wood" class="triangle-filled" rotation="-45" ></barrier-->
+    <!--barrier x="1245" y="275" type="wood" class="triangle-filled" rotation="135" ></barrier-->
     <next-level worldId="3" stageId="1" levelId="1" ></next-level>
 </level>
