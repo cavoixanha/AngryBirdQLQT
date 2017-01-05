@@ -1,93 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <level>
     <arbalest x="200" y="545" ></arbalest>
+    <bird x="500" y="696" type="blue" ></bird>
     <bird x="400" y="696" type="yellow" ></bird>
     <bird x="450" y="696" type="black" ></bird>
     <bird x="500" y="696" type="blue" ></bird>
-    <bird x="500" y="696" type="blue" ></bird>
-    <!-- THANH STONE SQUARE_01 DUNG-->
-    <barrier x="1500" y="690" type="stone" class="square-01" rotation="90" ></barrier>
-    <!-- ////////////////////////////-->
-    <!-- THANH WOOD SQUARE_HOLLOW DUNG-->
-    <barrier x="1356" y="690" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <!-- THANH WOOD straight_01 DUNG-->
-    <barrier x="1356" y="650" type="wood" class="straight-01" rotation="0" ></barrier>
-    <!-- THANH WOOD SQUARE_HOLLOW DUNG-->
-    <barrier x="1356" y="570" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <!-- THANH WOOD straight_01 DUNG-->
-    <barrier x="1356" y="550" type="wood" class="straight-02" rotation="0" ></barrier>
-    <!-- PIG NOMAL DUNG-->
-    <pig x="1359" y="472" type="normal" rotation="0" ></pig>
-    <!-- THANH WOOD SQUARE_03 DUNG-->
-    <barrier x="1505" y="530" type="wood" class="square-03" rotation="0" ></barrier>
-    <!-- ////////////////////////////-->
-    <!-- THANH wood SQUARE_01 DUNG-->
-    <barrier x="1274" y="690" type="wood" class="square-01" rotation="0" ></barrier>
-    <!-- THANH wood SQUARE_01 tang 2 DUNG-->
-    <barrier x="1294" y="650" type="wood" class="square-01" rotation="90" ></barrier>
-    <barrier x="1254" y="650" type="wood" class="square-01" rotation="90" ></barrier>
-    <!-- THANH wood SQUARE_01 DUNG-->
-    <barrier x="1274" y="578" type="wood" class="square-01" rotation="0" ></barrier>
-    <!-- THANH wood SQUARE_01 tang 2 DUNG-->
-    <barrier x="1294" y="538" type="wood" class="square-01" rotation="90" ></barrier>
-    <barrier x="1254" y="538" type="wood" class="square-01" rotation="90" ></barrier>
 
-    <!-- ////////////////////////////-->
-    <!-- THANH STONE SQUARE_01 -->
-    <barrier x="1152" y="690" type="stone" class="square-01" rotation="0" ></barrier>
-    <barrier x="1074" y="690" type="stone" class="square-01" rotation="0" ></barrier>
-    <!-- THANH STONE STRAIGHT_01 -->
-    <barrier x="1040" y="580" type="stone" class="straight-01" rotation="90" ></barrier>
-    <barrier x="1060" y="580" type="stone" class="straight-01" rotation="90" ></barrier>
-    <!-- THANH STONE STRAIGHT_01 ngang-->
-    <barrier x="950" y="480" type="stone" class="straight-01" rotation="0" ></barrier>
-    <barrier x="1152" y="480" type="stone" class="straight-01" rotation="0" ></barrier>
-    <!-- THANH STONE triangle_hollow ngang-->
-    <barrier x="1117" y="400" type="stone" class="triangle-hollow" rotation="0" ></barrier>
-    <barrier x="1035" y="400" type="wood" class="triangle-hollow" rotation="0" ></barrier>
-    <barrier x="1199" y="400" type="wood" class="triangle-hollow" rotation="0" ></barrier>
-    <!-- THANH wood straight_03 LEFT DUNG-->
-    <barrier x="932" y="425" type="wood" class="straight-03" rotation="90" ></barrier>
-    <barrier x="982" y="425" type="wood" class="straight-03" rotation="90" ></barrier>
-    <barrier x="960" y="390" type="wood" class="straight-03" rotation="0" ></barrier>
-    <!-- THANH wood straight_03 RIGHT DUNG-->
-    <barrier x="1260" y="425" type="wood" class="straight-03" rotation="90" ></barrier>
-    <barrier x="1310" y="425" type="wood" class="straight-03" rotation="90" ></barrier>
-    <barrier x="1287" y="390" type="wood" class="straight-03" rotation="0" ></barrier>
-    <!-- THANH wood straight_02 Center DUNG-->
-    <barrier x="1078" y="380" type="wood" class="straight-02" rotation="0" ></barrier>
-    <!-- THANH wood striangle_filled Center DUNG-->
-    <barrier x="1287" y="300" type="wood" class="TRIANGLE-FILLED" rotation="0" ></barrier>
-    <barrier x="960" y="300" type="wood" class="TRIANGLE-FILLED" rotation="0" ></barrier>
+    <!--Con Pig-->
+    <pig x="852" y="468" type="normal" rotation="0" ></pig>
+    <pig x="1354" y="468" type="normal" rotation="0" ></pig>
+    <pig x="1080" y="286" type="old" rotation="0" ></pig>
 
-    <!-- ////////////////////////////-->
-    <!-- THANH wood SQUARE_01 DUNG-->
-    <barrier x="952" y="690" type="wood" class="square-01" rotation="0" ></barrier>
-    <!-- THANH wood SQUARE_01 tang 2 DUNG-->
-    <barrier x="972" y="650" type="wood" class="square-01" rotation="90" ></barrier>
-    <barrier x="932" y="650" type="wood" class="square-01" rotation="90" ></barrier>
-    <!-- THANH wood SQUARE_01 DUNG-->
-    <barrier x="952" y="578" type="wood" class="square-01" rotation="0" ></barrier>
-    <!-- THANH wood SQUARE_01 tang 2 DUNG-->
-    <barrier x="972" y="538" type="wood" class="square-01" rotation="90" ></barrier>
-    <barrier x="932" y="538" type="wood" class="square-01" rotation="90" ></barrier>
-    <!-- THANH STONE SQUARE_01 DUNG-->
-    <barrier x="728" y="690" type="stone" class="square-01" rotation="90" ></barrier>
-    <!-- ////////////////////////////-->
-    <!-- THANH WOOD SQUARE_HOLLOW DUNG-->
-    <barrier x="885" y="690" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <!-- THANH WOOD straight_01 DUNG-->
-    <barrier x="748" y="650" type="wood" class="straight-01" rotation="0" ></barrier>
-    <!-- THANH WOOD SQUARE_HOLLOW DUNG-->
-    <barrier x="880" y="570" type="wood" class="square-hollow" rotation="0" ></barrier>
-    <!-- THANH WOOD straight_01 DUNG-->
-    <barrier x="799" y="550" type="wood" class="straight-02" rotation="0" ></barrier>
-    <!-- PIG NOMAL DUNG-->
-    <pig x="870" y="472" type="normal" rotation="0" ></pig>
-    <!-- THANH WOOD SQUARE_03 DUNG-->
-    <barrier x="793" y="530" type="wood" class="square-03" rotation="0" ></barrier>
-    <!--Con PIG-->
-    <pig x="1121" y="306" type="old" rotation="0" ></pig>
-  <!--   <pig x="1480" y="441" type="king" rotation="0" ></pig> -->
+    <pig x="1060" y="665" type="small" rotation="0" ></pig>
+    <pig x="1175" y="665" type="small" rotation="0" ></pig>
+    <!--Cot 1-->
+    <barrier x="721" y="690" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="858" y="670" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="736" y="650" type="wood" class="straight-01" rotation="0" ></barrier>
+    <barrier x="858" y="568" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="772" y="548" type="wood" class="straight-02" rotation="0" ></barrier>
+    <barrier x="772" y="528" type="wood" class="square-03" rotation="0" ></barrier>
+    <!--Cot 2-->
+    <barrier x="940" y="711" type="wood" class="square-01" rotation="0" ></barrier>
+    <barrier x="1062" y="711" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="1144" y="711" type="stone" class="square-01" rotation="0" ></barrier>
+    <barrier x="1265" y="711" type="wood" class="square-01" rotation="0" ></barrier>
+
+    <barrier x="920" y="650" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="961" y="650" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="940" y="588" type="wood" class="square-01" rotation="0" ></barrier>
+    <barrier x="920" y="527" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="961" y="527" type="wood" class="square-01" rotation="90" ></barrier>
+
+    <barrier x="1029" y="599" type="wood" class="straight-01" rotation="90" ></barrier>
+    <barrier x="1051" y="599" type="wood" class="straight-01" rotation="90" ></barrier>
+    <barrier x="938" y="487" type="stone" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1144" y="487" type="stone" class="straight-01" rotation="0" ></barrier>
+
+    <barrier x="1245" y="650" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1286" y="650" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1265" y="588" type="wood" class="square-01" rotation="0" ></barrier>
+    <barrier x="1245" y="527" type="wood" class="square-01" rotation="90" ></barrier>
+    <barrier x="1286" y="527" type="wood" class="square-01" rotation="90" ></barrier>
+
+    <barrier x="906" y="435" type="wood" class="straight-03" rotation="90" ></barrier>
+    <barrier x="963" y="435" type="wood" class="straight-03" rotation="90" ></barrier>
+
+    <barrier x="1237" y="435" type="wood" class="straight-03" rotation="90" ></barrier>
+    <barrier x="1293" y="435" type="wood" class="straight-03" rotation="90" ></barrier>
+
+    <barrier x="938" y="383" type="wood" class="straight-03" rotation="0" ></barrier>
+    <barrier x="1267" y="383" type="wood" class="straight-03" rotation="0" ></barrier>
+
+    <barrier x="938" y="302" type="wood" class="triangle-filled" rotation="0" ></barrier>
+    <barrier x="1267" y="302" type="wood" class="triangle-filled" rotation="0" ></barrier>
+
+    <barrier x="1016" y="405" type="wood" class="triangle-hollow" rotation="0" ></barrier>
+    <barrier x="1100" y="405" type="ice" class="triangle-hollow" rotation="0" ></barrier>
+    <barrier x="1184" y="405" type="wood" class="triangle-hollow" rotation="0" ></barrier>
+
+    <barrier x="1035" y="383" type="wood" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1035" y="363" type="wood" class="square-03" rotation="0" ></barrier>
+    <barrier x="1220" y="363" type="wood" class="square-03" rotation="0" ></barrier>
+
+    <!--Cot 3-->
+    <barrier x="1490" y="690" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="1348" y="670" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="1348" y="650" type="wood" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1348" y="568" type="wood" class="square-hollow" rotation="0" ></barrier>
+    <barrier x="1348" y="548" type="wood" class="straight-02" rotation="0" ></barrier>
+    <barrier x="1492" y="528" type="wood" class="square-03" rotation="0" ></barrier>
     <next-level worldId="2" stageId="1" levelId="3" ></next-level>
 </level>
