@@ -96,7 +96,7 @@ public abstract class BaseBarrierObject extends PhysicsObject<TiledSprite> {
 
 	@Override
 	public void onPostSolve(float impulse) {
-		if (BarrierConstants.NORMAL == this.mState) {
+//		if (BarrierConstants.NORMAL == this.mState) {
 //			if (impulse >= (BarrierConstants.DAMAGE_3_IMPULSE - 0)) {
 //				this.mState = BarrierConstants.DAMAGE_3;
 //				this.mEntity.setCurrentTileIndex(BarrierConstants.DAMAGE_3_TILED_INDEX);
@@ -107,15 +107,15 @@ public abstract class BaseBarrierObject extends PhysicsObject<TiledSprite> {
 //				this.mState = BarrierConstants.DAMAGE_1;
 //				this.mEntity.setCurrentTileIndex(BarrierConstants.DAMAGE_1_TILED_INDEX);
 //			}
-
-			int score = GameScoreManager.getInstance().increaseScoreForDamage(impulse);
-			if (score > 0) {
-				TextScore textScore = new TextScore(this.mEntity.getX() + this.mEntity.getWidth() * 0.5f,
-						this.mEntity.getY() + this.mEntity.getHeight() * 0.5f, Integer.toString(score));
-				textScore.showScore();
-			}
-
-		} else if (BarrierConstants.DAMAGE_1 == this.mState) {
+//
+//			int score = GameScoreManager.getInstance().increaseScoreForDamage(impulse);
+//			if (score > 0) {
+//				TextScore textScore = new TextScore(this.mEntity.getX() + this.mEntity.getWidth() * 0.5f,
+//						this.mEntity.getY() + this.mEntity.getHeight() * 0.5f, Integer.toString(score));
+//				textScore.showScore();
+//			}
+//
+//		} else if (BarrierConstants.DAMAGE_1 == this.mState) {
 //			if (impulse >= (BarrierConstants.DAMAGE_3_IMPULSE - BarrierConstants.DAMAGE_1_IMPULSE) * this.mBody.getMass()) {
 //				this.mState = BarrierConstants.DAMAGE_3;
 //				this.mEntity.setCurrentTileIndex(BarrierConstants.DAMAGE_3_TILED_INDEX);
@@ -123,40 +123,40 @@ public abstract class BaseBarrierObject extends PhysicsObject<TiledSprite> {
 //				this.mState = BarrierConstants.DAMAGE_2;
 //				this.mEntity.setCurrentTileIndex(BarrierConstants.DAMAGE_2_TILED_INDEX);
 //			}
-
-			int score = GameScoreManager.getInstance().increaseScoreForDamage(impulse);
-			if (score > 0) {
-				TextScore textScore = new TextScore(this.mEntity.getX() + this.mEntity.getWidth() * 0.5f,
-						this.mEntity.getY() + this.mEntity.getHeight() * 0.5f, Integer.toString(score));
-				textScore.showScore();
-			}
-		} else if (BarrierConstants.DAMAGE_2 == this.mState) {
+//
+//			int score = GameScoreManager.getInstance().increaseScoreForDamage(impulse);
+//			if (score > 0) {
+//				TextScore textScore = new TextScore(this.mEntity.getX() + this.mEntity.getWidth() * 0.5f,
+//						this.mEntity.getY() + this.mEntity.getHeight() * 0.5f, Integer.toString(score));
+//				textScore.showScore();
+//			}
+//		} else if (BarrierConstants.DAMAGE_2 == this.mState) {
 //			if (impulse >= (BarrierConstants.DAMAGE_3_IMPULSE - BarrierConstants.DAMAGE_2_IMPULSE) * this.mBody.getMass()) {
 //				this.mState = BarrierConstants.DAMAGE_3;
 //				this.mEntity.setCurrentTileIndex(BarrierConstants.DAMAGE_3_TILED_INDEX);
 //			}
-
-			int score = GameScoreManager.getInstance().increaseScoreForDamage(impulse);
-			if (score > 0) {
-				TextScore textScore = new TextScore(this.mEntity.getX() + this.mEntity.getWidth() * 0.5f,
-						this.mEntity.getY() + this.mEntity.getHeight() * 0.5f, Integer.toString(score));
-				textScore.showScore();
-			}
-		} else if (BarrierConstants.DAMAGE_3 == this.mState) {
+//
+//			int score = GameScoreManager.getInstance().increaseScoreForDamage(impulse);
+//			if (score > 0) {
+//				TextScore textScore = new TextScore(this.mEntity.getX() + this.mEntity.getWidth() * 0.5f,
+//						this.mEntity.getY() + this.mEntity.getHeight() * 0.5f, Integer.toString(score));
+//				textScore.showScore();
+//			}
+//		} else if (BarrierConstants.DAMAGE_3 == this.mState) {
 //			if (null != this.mBarrierDestroyedListeners) {
 //				for (IOnBarrierDestroyedListener listener : this.mBarrierDestroyedListeners) {
 //					listener.onBarrierDestroyed(this);
 //				}
 //			}
-
-			int score = GameScoreManager.getInstance().increaseScoreForDamage(impulse);
-			if (score > 0) {
-				TextScore textScore = new TextScore(this.mEntity.getX() + this.mEntity.getWidth() * 0.5f,
-						this.mEntity.getY() + this.mEntity.getHeight() * 0.5f, Integer.toString(score));
-				textScore.showScore();
-			}
-			this.destroy(true);
-		}
+//
+//			int score = GameScoreManager.getInstance().increaseScoreForDamage(impulse);
+//			if (score > 0) {
+//				TextScore textScore = new TextScore(this.mEntity.getX() + this.mEntity.getWidth() * 0.5f,
+//						this.mEntity.getY() + this.mEntity.getHeight() * 0.5f, Integer.toString(score));
+//				textScore.showScore();
+//			}
+//			this.destroy(true);
+//		}
 	}
 
 	@Override
