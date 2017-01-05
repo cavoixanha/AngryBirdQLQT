@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <level>
     <arbalest x="200" y="545" ></arbalest>
+
     <bird x="250" y="696" type="yellow" ></bird>
     <bird x="320" y="696" type="red" ></bird>
     <bird x="400" y="715" type="blue" ></bird>
     <bird x="450" y="686" type="yellow" ></bird>
     <bird x="550" y="666" type="black" ></bird>
-
+    
     <barrier x="1200" y="660" type="stone" class="straight-02" rotation="90" ></barrier>
     <barrier x="1350" y="660" type="stone" class="straight-02" rotation="90" ></barrier>
     <barrier x="1000" y="660" type="stone" class="straight-02" rotation="90" ></barrier>
     <barrier x="1190" y="660" type="stone" class="straight-02" rotation="90" ></barrier>
 
 
-    <barrier x="855" y="700" type="stone" class="square-01" rotation="90" ></barrier>
+    <barrier x="855" y="688" type="stone" class="square-01" rotation="90" ></barrier>
     <barrier x="855" y="605" type="stone" class="square-01" rotation="90" ></barrier>
     <barrier x="990" y="660" type="stone" class="straight-02" rotation="90" ></barrier>
 
@@ -32,12 +33,12 @@
     <barrier x="1180" y="520" type="wood" class="square-01" rotation="0" ></barrier>
     <barrier x="995" y="520" type="stone" class="square-01" rotation="0" ></barrier>
 
-    <barrier x="875" y="580" type="stone" class="straight-01" rotation="0" ></barrier>
-    <barrier x="1275" y="580" type="stone" class="straight-02" rotation="0" ></barrier>
-    <barrier x="1075" y="580" type="stone" class="straight-01" rotation="0" ></barrier>
+    <barrier x="875" y="563" type="stone" class="straight-01" rotation="0" ></barrier>
+    <barrier x="1275" y="563" type="stone" class="straight-02" rotation="0" ></barrier>
+    <barrier x="1075" y="563" type="stone" class="straight-01" rotation="0" ></barrier>
 
-    <barrier x="930" y="390" type="stone" class="straight-02" rotation="0" ></barrier>
-    <barrier x="1090" y="390" type="stone" class="straight-01" rotation="0" ></barrier>
+    <barrier x="930" y="373" type="stone" class="straight-02" rotation="0" ></barrier>
+    <barrier x="1090" y="373" type="stone" class="straight-01" rotation="0" ></barrier>
 
     <barrier x="1080" y="320" type="stone" class="straight-03" rotation="90" ></barrier>
     <barrier x="1070" y="320" type="wood" class="straight-03" rotation="90" ></barrier>
