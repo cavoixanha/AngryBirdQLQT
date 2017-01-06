@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <level>
     <arbalest x="200" y="545" ></arbalest>
-    <bird x="500" y="696" type="blue" ></bird>
-    <bird x="400" y="696" type="yellow" ></bird>
-    <bird x="450" y="696" type="black" ></bird>
-    <bird x="500" y="696" type="blue" ></bird>
+    <bird x="400" y="696" type="blue" ></bird>
+    <bird x="290" y="696" type="yellow" ></bird>
+    <bird x="350" y="696" type="black" ></bird>
+    <bird x="250" y="696" type="blue" ></bird>
 
     <!--Con Pig-->
     <pig x="852" y="468" type="normal" rotation="0" ></pig>

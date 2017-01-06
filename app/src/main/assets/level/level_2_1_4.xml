@@ -58,8 +58,8 @@
     <barrier x="933" y="612" type="stone" class="straight-01" rotation="0" ></barrier>
     <barrier x="1137" y="612" type="stone" class="straight-01" rotation="0" ></barrier>
 
-    <barrier x="933" y="572" type="ice" class="square-01" rotation="0" ></barrier>
-    <barrier x="1294" y="572" type="ice" class="square-01" rotation="0" ></barrier>
+    <barrier x="933" y="572" type="stone" class="square-02" rotation="0" ></barrier>
+    <barrier x="1294" y="572" type="stone" class="square-02" rotation="0" ></barrier>
 
     <barrier x="933" y="551" type="stone" class="straight-04" rotation="0" ></barrier>
     <barrier x="1294" y="551" type="stone" class="straight-04" rotation="0" ></barrier>
