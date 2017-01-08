@@ -4,6 +4,7 @@
     <bird x="300" y="696" type="yellow" ></bird>
     <bird x="350" y="696" type="yellow" ></bird>
     <bird x="400" y="696" type="yellow" ></bird>
+    <bird x="480" y="700" type="red" ></bird>
 
     //phase 1
     <barrier x="764" y="713" type="ice" class="square-01" rotation="0" ></barrier>
