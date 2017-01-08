@@ -133,8 +133,8 @@ public class GameScoreManager {
 			
 			@Override
 			public void run() {
-//				mScoreText.setText(Integer.toString(mTotalScore));
-//				mScoreText.setPosition(mScoreLayer.getWidth() - mScoreText.getWidth(), mScoreText.getY());
+				mScoreText.setText(Integer.toString(mTotalScore));
+				mScoreText.setPosition(mScoreLayer.getWidth() - mScoreText.getWidth(), mScoreText.getY());
 			}
 		});
 	}
